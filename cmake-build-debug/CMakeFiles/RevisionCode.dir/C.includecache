@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/Documents/Makerere/2017-2018 Fundamentals of Prorgramming/test_code/Cplusplus_programming/RevisionCode/main.c
+stdio.h
+-
+
