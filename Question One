@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int x = 2;
+int x = 1;
 
 main(){
     if(x==1)
