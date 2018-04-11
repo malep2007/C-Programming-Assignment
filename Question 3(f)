@@ -1,0 +1,5 @@
+for (counter = 1; counter < MAXVALUES; counter++ );
+    printf("\nCounter = %d", counter);
+    
+    the problem with the code is terminating the for statement.
+the opening and closing braces of the statements of the for loop are missing.
