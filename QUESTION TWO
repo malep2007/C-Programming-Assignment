@@ -1,0 +1,6 @@
+
+I.	Float do_it(char 1,char2,char3)
+II.	Void print_a_number(int argument)
+III.	-Print_msg function has too many arguments therefore there is function overloading 
+-Since we are using the void function, the code is not supposed to return anything but the program is calling for a return.
+
