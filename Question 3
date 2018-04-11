@@ -1,0 +1,24 @@
+
+/* QN 3 part one:
+   long values[50];
+   QN 3 part two:
+   long values[49]=123.456;
+   QN 3 part three:
+   x is equal to 100 when the statement is complete
+   QN 3 part four:
+   The value of ctr is 11 when the statement is complete
+   */
+
+   #include<stdio.h>
+   main()
+   {
+       int count = 1;
+       while (count<= 100)
+       {printf("%d\n",count);
+       count +=3;
+       }
+
+   }
+   /*QN 3 part five
+    The code under the for loop is always executed once
+    outside the for loop because of the semi-colon terminating the for loop.*/
