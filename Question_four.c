@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+void addarrays(int a[],int b[]);
 int i;
 int a[3]={2,3,4};  // a and b are the arrays and c is the array with the totals
 int b[3]={5,6,7};
