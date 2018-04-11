@@ -1,0 +1,73 @@
+part 1
+float do_it(char a,char b,char c)
+
+part 2
+void print_a_number(int)
+
+part 3
+wrong code
+#include <stdio.h>
+#include <stdlib.h>
+void print_msg(void);
+
+main(){
+ print_msg("this is the message to print");
+ /*The print_msg() function is not supposed to take any arguments but the main function calls it with a string argument*/
+return 0;
+}
+void print_msg(void){
+puts("this is the message to print");
+return 0;
+//The return 0 is not suppose to be there
+}
+
+correct code
+#include <stdio.h>
+#include <stdlib.h>
+void print_msg(void);
+
+main(){
+ print_msg();
+return 0;
+}
+void print_msg(void){
+puts("this is the message to print");
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
