@@ -1,0 +1,40 @@
+Question Three
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/* addarrays is a function that add two arrays x[], y[] both having size N
+    and the sum is stored in array z[], all variables are of int type
+    it returns a pointer of type int***************************************
+*/
+
+
+int main () 
+	{
+		/* Declaring an array of type long double that holds 50 elements*****
+		*********************************************************************/
+		long double a[50]; 
+		a[49]=123.456 ;   // Assigns 123.456 to the 50th element of the array
+		return 0;
+	}
+  
+  
+  
+  
+  #include <stdio.h  // The while statement.
+  #include <stdlib.h>
+
+
+int main () 
+	{
+		/* Declaring an a variable y of integer type ************************
+		*********************************************************************/
+		int y;
+		while ( y <= 100)    // The test condition the loop runs as long as y is less of equal to 100
+		{
+			printf("\n %d", y);  // as long  as the loop runs the value of y is printed
+			y+;      // y increment by 1
+		} 
+		return 0;
+	}
+
