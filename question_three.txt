@@ -12,3 +12,6 @@ while(x<=100)
 printf("%d\n",x);
 x+=3;
 }
+
+The for loop has been terminated which is not supposed to happen
+
