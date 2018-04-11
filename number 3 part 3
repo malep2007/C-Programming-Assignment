@@ -1,0 +1,3 @@
+ for (x=0;x<100;x++)
+    //The values of x will be as below if the statement is complete
+    x=0,1,2,3,4,........99
