@@ -1,0 +1,5 @@
+float do_it(char ,char ,char);
+
+void print_a_number(int);
+
+print_msg() function shouldn't have an argument on calling
