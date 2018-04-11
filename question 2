@@ -1,0 +1,11 @@
+a)
+
+#include<stdio.h>
+float do_it(char a, char b, char c); 
+b)
+#include<stdio.h>
+void print_a_number(int x); 
+c)
+The print_msg() function is not supposed to take any arguments but the main function calls it with a string argument. 
+ 
+
