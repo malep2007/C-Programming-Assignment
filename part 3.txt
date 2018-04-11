@@ -1,0 +1,3 @@
+The print_msg() function is declared as void which means that it returns nothing
+ but it said to return an interger value 0. Another problem with the code is that the parameter
+value within the print_msg() function is supposed to be void but in main it is called with a string. 
