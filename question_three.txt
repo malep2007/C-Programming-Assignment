@@ -9,6 +9,6 @@ the value of ctr is 8
 int x=1;
 while(x<=100)
 {
-x+=3;
 printf("%d\n",x);
+x+=3;
 }
