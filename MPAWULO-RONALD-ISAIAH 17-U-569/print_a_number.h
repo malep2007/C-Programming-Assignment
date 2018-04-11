@@ -1,0 +1,7 @@
+// MPAWULO RONALD ISAIAH BSc TELECOMMUNICATIONS ENGINEERING 17/U/569
+#ifndef PRINT_A_NUMBER_H__
+#define PRINT_A_NUMBER_H__
+
+void print_a_number(int m);
+
+#endif
