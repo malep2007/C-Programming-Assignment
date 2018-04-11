@@ -4,9 +4,11 @@ a[49]=123.456;
 
 the value of x is 100
 
-the value of ctr
+the value of ctr is 8
 
 int x=1;
-while(x<100){
+while(x<=100)
+{
+printf("%d\n", x);
 x+=3;
-printf("%d", x);
+}
