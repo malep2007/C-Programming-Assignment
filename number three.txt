@@ -1,0 +1,16 @@
+Long values [50];
+Long values[49]=123456;
+X is equal to 100 when the statement is complete 
+The value of ctr is11 when the statement is complete.
+
+
+#include<stdio.h>
+Main(){
+   int count=1;
+   while (count<=100){
+      printf (“%d”,count);
+count + =3;
+    }
+}
+
+The code under the for loop is always executed once, outside for the for loop, because of the semi colon terminating the for loop.
