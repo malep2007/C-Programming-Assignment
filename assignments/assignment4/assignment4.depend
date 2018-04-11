@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1523458332 source:c:\users\hp\desktop\assignment4\main.c
+
+1523458278 source:c:\users\hp\desktop\assignment4\fourb.c
+	<stdio.h>
+	<stdlib.h>
+
