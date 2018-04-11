@@ -4,7 +4,7 @@ void addarrays(int a[], int b[], int c[], int SIZE)
 {
 for(int i=0;i<SIZE;i++)
 {
-    destination_array[i] = array1[i] + array2[i];
+    destination_array[i] = a[i] + b[i];
 }
 }
 
