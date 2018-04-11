@@ -1,0 +1,4 @@
+#ifndef do_it_H
+#define do_it_H
+float do_it(char x, char y, char z);
+#endif
