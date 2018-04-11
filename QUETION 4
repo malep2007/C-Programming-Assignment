@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    void addarrays(int arraya[],int arrayb[], final_array[], int sieze);
+    {
+        for(int i=0;i<size;i++)
+        final_array[1] = arraya[1] + arrayb[1];
+    }
+}
+/*
+#inclide<studio.h>
+int *addarrays(int arraya[],int arrayb[],int sieze);
+
+main()
+{
+    int arraya[] = {1,2,3}
+    int array[]  =   {4,5,6}
+
+    int*array1= addarrays(arraya,arrayb,3);
+    for(int i=0;i<3;i++)
+    {
+    printf("%d\n",array1[1]);
+}
+}
+
+int *addarrays(int arraya[],int arrayb[],int length)
+{
+    int*final_array= malloc(lenth*sizeof(int));
+    for(int i=0;i<lenth;i++)
+    {
+    final_array[1]=arraya[1] + arrayb[1];
+    }
+    return final_array;
+}
+
