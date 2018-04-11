@@ -13,5 +13,5 @@ while ( c <= 100) {
   c += 3;
 }
  /*(f) code fragment*/
-for (counter = 1; counter < MAXVALUES; counter++ ); //there are no errors in the code
+for (counter = 1; counter < MAXVALUES; counter++ ); //the for loop was terminated before the printf function hence its effect on the printf function won't be there
 printf("\nCounter = %d", counter);
