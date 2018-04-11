@@ -3,9 +3,9 @@ long array[50];
 
 long array[49] = 123.456;
 
-for (x = 0; x < 100; x++) // x = 100
+for (x = 0; x < 100; x++) // x = 0,1,2,3............. 98,99 (values of x increase by one up to 99)
 
-for (ctr = 2; ctr < 10; ctr+=3) // ctr value = 11
+for (ctr = 2; ctr < 10; ctr+=3) // ctr value = 8
 
 int counter, c = 1;
 while ( c <= 100) {
