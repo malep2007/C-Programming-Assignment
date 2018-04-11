@@ -1,0 +1,1 @@
+The print_msg() is not supposed to take any argumnt while the main function calls for an argument

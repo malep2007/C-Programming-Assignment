@@ -1,0 +1,17 @@
+   /* a program with problems... */
+#include <stdio.h>
+int x= 1;
+main()
+{
+  if( x = 1)
+  {
+
+     printf(" x equals 1\n" );
+  }
+  else
+  {
+
+     printf(" x does not equal 1\n");
+  }
+  return 0;
+ }
