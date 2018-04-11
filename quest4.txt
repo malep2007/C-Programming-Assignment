@@ -1,0 +1,28 @@
+Question four
+a)
+ void addarays(int arrayx[], int arrayy[], int dest_array[], int  SIZE)
+{
+   for(int i=0; i<SIZE; i++){
+    dest_array[i]=arrayx[i]+arrayy[i];
+   }
+}
+
+
+
+b)
+ int addarrays(int arrayx[], int arrayy[], int SIZE);
+main(){
+int arrayx[]={2,4,7,24,8};
+int arrayy[]={100,92,127,5,10};
+int arrayz[]=addarrays(arrayx,arrayy,5);
+for(i=0;i<5;i++){
+printf("%d\n",arrayz[i]);
+}
+}
+int addarrays(int arrayx[], int arrayy[],int length){
+int dest_array[]=malloc(length*int length);
+for(i=0;i<length;i++){
+dest_array[i]=arrayx[i]+arrayy[i];
+}
+return dest_array;
+}
