@@ -1,0 +1,20 @@
+(a) The declaration for an array that will hold 50 long type values is given by;
+longvalues [50]
+
+(b) Statement that assigns the value 123.456 to the 50th element in the array is:
+     values[49]=123.456
+     
+ (c) For the for loop given by for (x=0; x<100;x++)
+ 
+ (d) The last value of ctr is 11. This is because the loop will add 3 to 2 unti it reaches eight.
+ Then it will add 3 to 8 to get 11, then it will check the test condition and stop.
+ 
+ (e) The while statement to count from to 1 to 100 by 3s
+ 
+       #include<stdio.h>
+    
+       int x=1;
+       main(){ 
+                 while (x<100) {printf("%d\n",x);
+                   x=x+3;
+                 }
