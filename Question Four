@@ -15,10 +15,8 @@ THE FUNCTION TO ADD TWO ARRAYS
 
 /* addarrays is a function that add two arrays x[], y[] both having size N
     and the sum is stored in array z[], all variables are of int type
-    it returns a pointer of type int***************************************
+    it returns nothing****************************************************
 */
-
-
 
 void addarrays(int N, int x[], int y[], int z[])
 	{	int i;
@@ -28,10 +26,13 @@ void addarrays(int N, int x[], int y[], int z[])
 	}
   
   
+ 
+ 
  This is a header file for the following program containing function definitions:
  
  
-  /*  tipa.h is the the header file containing function definitions.   */
+			Tipa.h
+/*  Tipa.h is the the header file containing function definitions.   */
 #include <stdio.h>
 #include <stdlib.h>
 
