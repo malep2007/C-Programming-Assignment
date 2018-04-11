@@ -25,10 +25,20 @@ int main ()
 		a[49]=123.456 ;   // Assigns 123.456 to the 50th element of the array
 		return 0;
 	}
-  
-  
-  
-  
+	
+	
+	
+	What is the values of x when the following statement in complete ?
+       for (x = 0; x < 100; x++),
+       ANSWER: x will be equal to 100.
+       What is the value of ctr when the following statement is compelte ?
+       for(ctr = 2; ctr < 10; ctr += 3),
+       ANSWER: ctr will be equal to 11.
+       
+       
+       
+       /* The while statement*****************************************************/
+
   #include <stdio.h  // The while statement.
   #include <stdlib.h>
 
@@ -45,4 +55,16 @@ int main ()
 		} 
 		return 0;
 	}
+	
+	
+	
+	
+	What is wrong with the following code fragment (MAXVALUES is not the problem !)
+    for (counter = 1; counter < MAXVALUES; counter++ )     
+    printf("\nCounter = %d", counter);
+    ANSWER: The semicolon after the for statement should not have been there.				
+
+	
+	
+	
 
