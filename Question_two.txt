@@ -2,4 +2,4 @@ float do_it(char ,char ,char);
 
 void print_a_number(int);
 
-print_msg() function shouldn't have an argument on calling
+print_msg() function is not supposed to take on any arguments but the main() function calls it with a string argument
