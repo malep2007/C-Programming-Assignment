@@ -1,0 +1,15 @@
+/*........a program with errors.........*/
+
+#include <stdio.h>
+void print_msg(void);
+main(){       //there's no default return type of the min function  
+    print_msg("This is a message to print");    //unnecessary arguments in the function definition
+    return 0;
+}
+void print_msq(void)    //print_msq is not declared anywhere in this program, i.e. it's different from print_msg
+{
+    puts("This is a message to print");
+    return 0;   //unsuitable return value, the function must return "void"
+}
+
+The errors in the above program are indicated as comments(ie after// ) 

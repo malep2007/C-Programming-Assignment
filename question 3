@@ -1,0 +1,38 @@
+NUMBER 3a
+An array that holds 50 long type values; 
+
+long grade[50];
+
+
+
+
+NUMBER 3b
+Assigning a value to the 50th element in an array of 50 elements:
+
+grade[49] = 123.456
+
+
+
+NUMBER 3C 
+for(x = 0; x<100; x++)
+
+The values of x in the function above gives a range from 0 - 99 and the final value is 99.
+
+
+
+
+NUMBER 3d 
+for(ctr = 2; ctr<10; ctr+=3)
+
+When the above statement is complete:
+
+  The values of ctr are 2, 5 and 8.
+  
+  
+  
+NUMBER 3e
+for(counter = 1; counter<MAXVALUES; counter++);   
+printf("\nCounter = %d", counter);     
+
+The semi-colon on the for loop makes the program to output only one value which is initialized to the counter variable in the for loop.
+The output will only show "Counter = 1" instead of iterative values.

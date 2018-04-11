@@ -1,0 +1,7 @@
+#ifndef DO_IT_H
+#define DO_IT_H
+
+void float do_it(char x,char y,char z)
+
+
+#endif // PRINT_A_NUMBER_H

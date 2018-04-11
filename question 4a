@@ -1,0 +1,6 @@
+void addarrys(int array1[],int arry2[],int destination_arry[], int SIZE)
+{
+    for(int i=0;i<SIZE;i++)
+    {destination_arry[i]=arry1[]+arry2[i]
+    }
+}
