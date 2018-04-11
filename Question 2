@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+// PART A
+float do_it()
+{
+  char a, b, c;
+    return 0.0;
+}
+
+
+// PART B
+void print_a_number(){
+  int a;
+}
+
+// PART C
+
+ There are too many arguments to function 'print_msg'
