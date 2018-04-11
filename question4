@@ -1,0 +1,44 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int addarray();
+int main()
+{
+    addarray();
+}
+
+int addarray()
+{
+     int i,r,s,t;
+
+
+    printf("enter the size of array 1:\n");
+    scanf("%d", &r);
+    printf("enter the size of array 2:\n");
+    scanf("%d", &s);
+    printf("enter the size of sum array:\n");
+    scanf("%d", &t);
+    int arr1[r];
+    int arr2[s];
+    int sum[t];
+
+
+        printf("Enter values for array 1\n");
+     for(i=0; i<r;i++)
+     {
+         printf("Enter index %d\n", i);
+         scanf("%d", &arr1[i]);
+     }
+     printf("Enter values for array 2\n");
+     for(i=0; i<s;i++)
+     {
+         printf("Enter index %d\n", i);
+         scanf("%d", &arr2[i]);
+     }
+     for(i=0; i<t;i++)
+     {
+         sum[i] = arr1[i] + arr2[i];
+         printf("\nthe sum of %d and %d is %d", arr1[i],arr2[i],sum[i]);
+     }
+
+}
