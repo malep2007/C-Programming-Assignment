@@ -1,0 +1,26 @@
+
+a) long values[50];
+b) values[49] = 123.456;
+
+ c) for (x=0;x<100;x++)
+    //The values of x will be from 0 to 99
+
+d)  for (ctr=2;ctr<10;ctr+=3)
+    // The value of ctr at the end is 8
+
+e) #include <stdio.h>
+#include <stdlib.h>
+main()
+{
+ int count;
+ count=1;
+ while(count<=100)
+ {
+  printf("%d\n",count);
+  count+=3;
+ }
+ return 0;
+}
+
+f) for(counter=1; counter < MAXVALUES;couter++); //for loop is not supposed to be terminated
+printf("\n counter = %d", counter);
