@@ -1,0 +1,19 @@
+#float do_it(char a,char b,char c)
+
+#void print_a_number(int a)
+
+
+
+#include <stdio.h>
+void point_msg(void);
+
+int main()
+{
+    print_msg("this is a message to print"); //the statement "this is a message to print is not supposed to be there.
+    return 0;
+}
+void print_msq(void) //at msq it is supposed to be g
+{
+    puts("this is a message to print");
+    return 0; //return o s not supposed to be there
+}
