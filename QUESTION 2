@@ -1,0 +1,21 @@
+
+/*2
+            float do_it(char X, char Y, char Z)*/
+
+
+
+
+       /*void print_anumber(int A)*/
+#include <stdio.h>
+void print_msg(void);/* Putting void in the brackets(void) prints nothing and therefore returns nothing*/
+main()
+{
+   print_msg("This is a message to print");
+    return 0;
+    }
+void print_msq( void )/* There is mis spelling of print_msg for print_msq*/ 
+          
+{
+    puts("This is a message to print");
+    return 0;
+}
