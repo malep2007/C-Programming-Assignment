@@ -1,1 +1,1 @@
-the value of ctr is 11 when the statement is complete
+the value of ctr is 8 when the statement is complete

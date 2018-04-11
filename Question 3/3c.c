@@ -1,1 +1,1 @@
-x equal to 100 when statement is complete
+x is equal to 99 when statement is complete
