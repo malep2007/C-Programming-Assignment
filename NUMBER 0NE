@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+
+{
+    int x=1;
+    if(x==1) //no terminating at this point and it must be a double equals.
+    {
+
+    printf("x equals to  1\n");
+    }
+    else //it is supposed to be else not otherwise.
+    {
+    printf("x  does not equal to 1\n");
+    }
+    return 0;
+}

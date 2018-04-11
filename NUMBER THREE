@@ -1,0 +1,57 @@
+int main()
+{
+     long A[50];
+
+}
+
+long A[49]=123.456
+
+
+int main()
+{
+    int x=1;
+    while(x<=100)
+    {
+        printf("%d\n",x);
+        x+=3;
+    }
+
+    return 0;
+}
+
+
+
+int main()
+{  int counter , MAXVALUES;
+    for(counter=1;counter<MAXVALUES; counter++) // it should not be terminated
+    {
+        printf("\ncounter = %d",counter) ; // it must be put in parethesis.
+    }
+    return 0;
+}
+
+
+int main()
+{
+    int ctr;
+    for(ctr=2;ctr<10;ctr+=3)
+    {
+        printf("%d\n",ctr);
+    }
+    return 0;
+}
+
+int main()
+{
+    int x=1;
+    while (x<=100)
+
+
+    {
+        printf("%d\n",x);
+        x+=3;
+    }
+
+
+    return 0;
+}

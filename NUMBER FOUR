@@ -1,0 +1,61 @@
+#include <stdio.h>
+void addarrays(int a[3],int b[3],int c[3]);
+
+int main()
+{
+    int  a[3],b[3],c[3],i;
+    for(i=0;i<3;i++)
+    {
+        printf("enter number %d\n",i+1);
+        scanf("%d",&a[i]);
+
+    }
+    for(i=0;i<3;i++)
+    {
+        printf("enter number %d\n",i+1);
+        scanf("%d",&b[i]);
+    }
+    printf("the sum of arrays is\n");
+
+    for(i=0;i<3;i++)
+
+    {
+     c[i]=a[i]+b[i];
+
+
+
+      printf(" %d ",c[i]);
+
+
+
+    }
+   return 0;
+
+}
+
+
+
+
+int main()
+{
+
+int *addarrays(int array1[3], int array2[3]);
+main();{
+int array1[] = {2,5,3,22,6};
+int array2[] = {13,143,11,10,121};
+int *array3 = addarrays(array1, array2);
+for(int i=0;i<3;i++)
+ {
+printf("%d \n", array3[i]);
+}
+}
+int *addarrays(int array1[], int array2[], int length){
+int *destination_array = malloc(length * sizeof(int));
+for(int i=0;i<length;i++){
+destination_array[i] = array1[i] + array2[i];
+}
+return destination_array;
+
+    return 0;
+}
+
