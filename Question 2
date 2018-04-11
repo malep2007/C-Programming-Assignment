@@ -31,5 +31,5 @@ void print_a_number(int y)
     void print_msq( void )
     {
     puts("This is a message to print");
-    return 0;
+  
     }
