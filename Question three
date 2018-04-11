@@ -1,0 +1,12 @@
+(i) Long int array1 [50]
+(ii) int array1 [49]=123.456
+(iii) 0 <=x<100
+(iv)8
+
+(v) int x=1;
+    While (x <=100)
+    {printf ("%d",x);
+          x+=3;
+          }
+(vi) the 'for' loop shouldn't be terminated 
+     There should be braces after the 'for' statement
