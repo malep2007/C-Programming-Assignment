@@ -1,0 +1,61 @@
+question two
+
+            do_it.h
+// do_it.h is a header file containing declaration of do_it function
+
+/* do_it takes on three arguments all of char type and then returns a float value**
+ **********************************************************************************/
+
+float do_it ( char a, char b, char c);    // the declaration of the do_it function
+
+          do_it.c
+// do_it.c contains the function declaration
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "do_it.h"
+
+float do _it ( char a, char b, char c)
+{
+	.....................   // This contains the statements
+}
+
+
+
+        print_a_number.h
+        // print_a_number.h is a header file that contains the function declaration
+
+/*  We are declaring the function print_a_number to be taking on a single argument of
+    integer type and the function returns nothing************************************/
+
+void print_a_number(int x);
+
+        print_a_number.c
+ // print_a_number.h is a header file that contains the function declaration
+
+/*  We are declaring the function print_a_number to be taking on a single argument of
+    integer type and the function returns nothing************************************/
+
+void print_a_number(int x);
+
+
+
+
+                    #include <stdio.h>
+                    void print_msg( void );
+                    main(){
+                        print_msg("This is a message to print");
+                        return 0;
+                    }
+                    void print_msq( void )
+                    {
+                        puts("This is a message to print");
+                        return 0;
+                    }
+
+/*  Error: The function print_msg() in the above code has been declared to be void argumented meaning it
+    takes no argument during its call. Calling this function with the argument "This is a message to print"
+    will trigger the compiler to send and error message.
+    Also print_msg has been delared with return type void meaning it returns nothing, making it to return
+    integer 0 will give a compilation error.*************************************************************
+*/ 
