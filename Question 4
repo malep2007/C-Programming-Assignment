@@ -1,0 +1,27 @@
+
+
+Answer to Question Four part 1:
+void addarrays(int arraya[], int arrayb[], int dest_array[], int SIZE){
+for(int i=0;i<SIZE;i++){
+dest_array[i] = arraya[i] + arrayb[i];
+}
+}
+
+Answer to Question Four part 2:
+#include <stdio.h>
+int *addarrays(int arraya[], int arrayb[], int SIZE);
+main(){
+int arraya[] = {2,5,3,22,6};
+int arrayb[] = {13,143,11,10,121};
+int *arrayc = addarrays(arraya, arrayb, 5);
+for(int i=0;i<5;i++) {
+printf("%d \n", arrayc[i]);
+}
+}
+int *addarrays(int arraya[], int arrayb[], int length){
+int *dest_array = malloc(length * sizeof(int));
+for(int i=0;i<length;i++){
+dest_array[i] = arraya[i] + arrayb[i];
+}
+return dest_array;
+}
