@@ -11,9 +11,8 @@ Question Three
 #include <stdio.h>
 #include <stdlib.h>
 
-/* addarrays is a function that add two arrays x[], y[] both having size N
-    and the sum is stored in array z[], all variables are of int type
-    it returns a pointer of type int***************************************
+/* The array is of type long double since it is to hold a large floating value****
+**********************************************************************************
 */
 
 
@@ -30,9 +29,12 @@ int main ()
 	
 	What is the values of x when the following statement in complete ?
        for (x = 0; x < 100; x++),
+       
        ANSWER: x will be equal to 100.
+       
        What is the value of ctr when the following statement is compelte ?
        for(ctr = 2; ctr < 10; ctr += 3),
+       
        ANSWER: ctr will be equal to 11.
        
        
@@ -45,13 +47,13 @@ int main ()
 
 int main () 
 	{
-		/* Declaring an a variable y of integer type ************************
+		/* Declaring a variable y of integer type and assigning it initial value 1 
 		*********************************************************************/
-		int y;
+		int y = 1;
 		while ( y <= 100)    // The test condition the loop runs as long as y is less of equal to 100
 		{
 			printf("\n %d", y);  // as long  as the loop runs the value of y is printed
-			y+;      // y increment by 1
+			y+ = 3;      // y incremented by 3
 		} 
 		return 0;
 	}
@@ -59,10 +61,11 @@ int main ()
 	
 	
 	
-	What is wrong with the following code fragment (MAXVALUES is not the problem !)
-    for (counter = 1; counter < MAXVALUES; counter++ )     
+    What is wrong with the following code fragment (MAXVALUES is not the problem !)
+    for (counter = 1; counter < MAXVALUES; counter++ );     
     printf("\nCounter = %d", counter);
-    ANSWER: The semicolon after the for statement should not have been there.				
+   
+   ANSWER: The semicolon after the for statement should not have been there.				
 
 	
 	
