@@ -1,0 +1,13 @@
+long arr[50];  //arr is the array name
+arr[49]=123.456
+
+the final value of x is 100
+
+the final value of ctrl is 11
+
+int x=1;
+while(x<=100) {
+        x+=3;
+        }
+        
+Curly braces should be used to enclose the printf() function and the for() loop should not be terminated 
