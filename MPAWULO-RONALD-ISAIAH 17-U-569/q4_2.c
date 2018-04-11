@@ -3,7 +3,10 @@
 #include <stdlib.h>
 
 int results[] = {};
-int *addarrays(int array1[], int array2[], int n);
+int array1[]={};
+int array2[]={};
+int array3[]={};
+int *addarrays(int array1[],int array2[],int array3);
 
 int main(void) {
   int i,n;
@@ -27,15 +30,15 @@ int main(void) {
   y = addarrays(array_first, array_second, n);
   printf("array one: ");
   for (i=0; i < n; i++){
-  printf("%d,", array_one[i]);
+  printf(" %d",array1[i]);
   }
   printf("\narray two: ");
   for (i=0; i < n; i++){
-  printf("%d,", array_two[i]);
+  printf("%d,", array2[i]);
   }
   printf("\nresults array: ");
   for (i=0; i < n; i++){
-  printf("%d,", x[i]);
+  printf("%d,", array3[i]);
   }
   return 0;
 }
