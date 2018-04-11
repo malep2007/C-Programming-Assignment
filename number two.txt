@@ -1,0 +1,5 @@
+Question 2;
+i)  float do_it(char a,char b,char c);
+ii) void print_a_number( int a);
+iii) whats wrong with the program?
+answer: - When calling the function in the main function, the statement( "This is a message to print" )is not supposed to be included.
