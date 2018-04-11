@@ -1,8 +1,8 @@
 (a) float do-it(char1, char2, char3)
 (b) void print-a-number(int)
 (c) The program had the following errors. 
-1. The two functions print_msg and print_msq that are in the program are diferrent so the compiler
+1. The two functions print_msg and print_msq that are in the program are different so the compiler
     will fail to distinguish between which one to use.
- 2.The function known as print_msg() should have empty parentheses. This means it shouldnt have an argument 
+ 2.The function known as print_msg() should have empty parentheses. This means it shouldn't have an argument 
     in because it was declared void.
      
