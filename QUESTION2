@@ -1,0 +1,14 @@
+do_it.h
+/*it only contains function declaration*/
+float do_it(char a,char b,char c)
+
+
+
+
+#include<stdio.h>
+void print_a_number(int x)
+
+
+
+
+The print_msg() function is not supposed to take any argument but the main function calls it with a string argument.
