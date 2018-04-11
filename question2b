@@ -1,0 +1,6 @@
+#ifndef print_a_number_H
+#define print_a_number_H
+
+void print_a_number(int p);
+
+#endif
