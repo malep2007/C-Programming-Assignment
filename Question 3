@@ -1,0 +1,27 @@
+part 1
+long a[50]
+
+part 2
+a[49]=123.456
+
+part 3
+x=100
+
+part 4
+ctr=11
+
+part 5
+#include<stdio.h>
+int main()
+{
+    int x=1;
+    while(x<100)
+    {
+    printf("%d\n", x);
+    x+=3;
+    }
+    return 0;
+}
+
+part 6
+The for loop statement was terminated outside with a semicolon
