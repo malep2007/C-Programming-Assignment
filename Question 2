@@ -1,0 +1,16 @@
+a) float do_it(charA,charB,charC)
+
+b) void print_a_number(int n)
+
+c)
+#include <stdio.h>
+void print_msg(void);
+main(){
+
+print_msg("this is a message to print"); //the print_msg() function is not supposed to take any argument but the main function call it string argument//
+return 0;
+}
+ void print_msq(void){      //print_msg function declared is misplaced as print_msq//
+ puts("this is a message to print");
+ return 0;
+}
