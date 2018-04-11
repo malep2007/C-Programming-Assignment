@@ -4,3 +4,12 @@
 
 Float do_it(char a, char b, char c);
 #endif // DO_IT_H
+
+
+#ifndef PRINT_A_NUMBER_H
+#define PRINT_A_NUMBER_H
+void print_a_number(int x);
+#endif // PRINT_A_NUMBER_H
+
+
+          The print_msg() function is not supposed to take any arguments but the main function calls it with a string argument.
