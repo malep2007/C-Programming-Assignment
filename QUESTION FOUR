@@ -1,0 +1,29 @@
+NAME:NANTALE SANDRA
+REG.NO:17/U/20306/PS
+STUDENT NO. 217022080
+COURSE: BELE
+
+
+#include <stdlib.h>
+void addarrays(int a[10],int b[10]);
+int main()	
+{
+    int a[10] ={1, 2, 3,4 ,5, 6, 7, 8, 9,10};
+int b[10] ={1, 2, 3,4 ,5, 6, 7, 8, 9,10};
+addarrays(a,b);
+return 0;
+}
+void addarrays(int a[10], int b[10])
+{
+
+int c[10];
+int i;
+for(i=0;i<=10; i++)
+{
+    c[i] = b[i] + a[i];
+printf("the sum is %d\n",c[i]);
+}
+return 0;
+}
+
+
