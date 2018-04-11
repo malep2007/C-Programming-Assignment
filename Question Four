@@ -72,7 +72,8 @@ void print_array(int N, int a[])
 	}
 
 THIS IS THE C SOURCE FILE:(MAIN.C) CONTAINING THE CALL OF THE FUNCTIONS IN THE ABOVE HEADER FILE.
-
+			
+			main.c
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
