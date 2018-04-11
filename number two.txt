@@ -1,0 +1,3 @@
+float do_it(char, char, char );
+void print_a_number(int);
+When calling the print_msg functionin the main function, it is not supposed to take any argument.
