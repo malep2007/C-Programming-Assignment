@@ -1,0 +1,6 @@
+//Answer to question part1
+void addarrays(int ary1[], int ary2[], int destary[], int SIZE){ 
+for(int j=0;j<SIZE;j++){ 
+destination_array[i] = ary1[i] + ary2[i]; 
+} 
+} 
