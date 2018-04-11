@@ -1,2 +1,0 @@
-
-long values[50];
