@@ -1,6 +1,6 @@
-void addarrays(int array1[], int array2[], int destination_array[], int length){
+void addarrays(int arrayOne[], int arrayTwo[], int arrayThree[], int size){
 
-    for(int i=0;i<length;i++){
-        destination_array[i] = array1[i] + array2[i];
+    for(int i=0;i<size;i++){
+        arrayThree[i] = arrayOne[i] + arrayTwo[i];
     }
 }
