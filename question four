@@ -1,0 +1,38 @@
+/*Write a function named addarrays that accepts two arrays that are of the same size .The function should add each element in the arrays together and place them in the third array*/
+
+#include <stdio.h>
+int addarrays(int array1[]  ,int array[] ,int array3[],int capacity)
+{
+    int p;
+for( p=0;p<capacity;p++)
+{
+    array3[p]=array1[p]+array2[p];
+}
+}
+
+
+/*A function that returns a pointer to the array containing the totals and displays the values in all the three arrays*/
+
+#include <stdio.h> 
+int *addarrays(int arraya[],int arrayb[], int SIZE); 
+main(){ 
+int arraya[] = {2,3,5,9,10}; 
+printf("arraya[2,3,5,9,10]\n");
+int arrayb[] = {10,23,25,17,16}; 
+ printf("arrayb[10,23,25,17,16]\n");
+ printf("arrayc  ");
+int *arrayc = addarrays(arraya, arrayb, 5);
+int i; 	
+for( i=0;i<5;i++) { 
+printf("%d,", arrayc[i]); 
+} 
+} 
+ 
+int *addarrays(int arraya[], int arrayb[], int length){ 
+int *destination_array = malloc(length * sizeof(int));
+int i; 
+for( i=0;i<length;i++){ 
+destination_array[i] = arraya[i] + arrayb[i]; 
+} 
+return destination_array; 
+}
