@@ -1,0 +1,19 @@
+Declaration for an array that will hold 50 type long values
+longvalues[50];
+A statement that assigns the value 123456 to the 50th element in the array above
+longvalue[49]=123456
+Value of x when following statement is complete
+X is equal to 100
+Value of ctr when following statement is complete
+Ctr is 11
+While statement to count from 1 to 100 by 3s
+#include<stdio.h>
+main(){
+int count = 1
+while(count<=100){
+	printf(“%d”, count);
+	count +=3;
+}
+}
+What is wrong with the following code
+The code under the for loop is always executed only once.
