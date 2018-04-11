@@ -1,0 +1,14 @@
+#include <stdio.h>
+                    void print_msg( void );
+                    main(){
+                        print_msg("This is a message to print");
+                        return 0;
+                    }
+                    void print_msq( void )
+                    {
+                        puts("This is a message to print");
+                        return 0;
+                    }
+                    
+                    The function prototype (print_msg) is diffrent from the function header (print_msq)
+the function is not to have any arguments but main function calls it with a string
