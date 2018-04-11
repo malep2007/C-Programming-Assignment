@@ -1,0 +1,4 @@
+(i) float do-it (char arg1, char arg2, char arg3)
+(i) void print_a_number (int argument)
+(iii) the functions are over loading 
+       It's not supposed to run anything 
