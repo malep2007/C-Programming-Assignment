@@ -5,7 +5,7 @@ main(){
   print_msg("This is a message to print");//The print_msg function does not take arguments arguments.
   return 0;
 }
-void print_msq( void )  //This is supposed to be print_msg not print_msq
+void print_msq( void )  //This is supposed to be print_msg not print_msq.
 {
   puts("This is a message to print");
   return 0; // This is unexpected because the return type was specified as 'void'
