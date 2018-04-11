@@ -1,0 +1,12 @@
+/*......a program with a custom header..........*/
+
+#include <stdio.h>
+#ifndef do_it
+#define do_it
+
+void do_it(char 1, char 2, char 3)
+{
+    float value = 1 + 2 + 3;
+    return value;
+}
+
