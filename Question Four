@@ -1,4 +1,14 @@
+/* Name: Stephen Tipa Augustine
+   Reg No: 17/U/1149
+   Student's No: 217000802
+   Course: Telecommunication Engineering
+   */
+
+
+
 Question Four:
+
+THE FUNCTION TO ADD TWO ARRAYS
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -18,9 +28,9 @@ void addarrays(int N, int x[], int y[], int z[])
 	}
   
   
-  
-  This is a header file
-  
+ This is a header file for the following program containing function definitions:
+ 
+ 
   /*  tipa.h is the the header file containing function definitions.   */
 #include <stdio.h>
 #include <stdlib.h>
@@ -60,44 +70,37 @@ void print_array(int N, int a[])
 		{	printf("\t %d", a[i]); }
 	}
 
-This is the c source file:
+THIS IS THE C SOURCE FILE:(MAIN.C) CONTAINING THE CALL OF THE FUNCTIONS IN THE ABOVE HEADER FILE.
 
-/*  tipa.h is the the header file containing function definitions.   */
 #include <stdio.h>
 #include <stdlib.h>
+#include <conio.h>
+#include "Tipa.h"
+int N, i;
+/*int *addarrays(int N, int a[], int b[], int c[]);
+void read_array(int N, int a[]);
+void print_array(int N, int a[]);*/
 
-/* addarrays is a function that add two arrays x[], y[] both having size N
-    and the sum is stored in array z[], all variables are of int type
-    it returns a pointer of type int***************************************
-*/
+int main ()
+{
+    int a[N], b[N], c[N], *address;
+    printf("Enter the size of your array:");
+    scanf("%d", &N);
+    printf("\n For the first array:\n");
+    read_array(N, a);
+    printf("\n For the second array:\n");
+    read_array(N, b);
+    address = addarrays(N, a, b, c);
+    printf("The address of c[%d] is %d", 0, address);
+    printf("\n The elements of the first array are:\n");
+    print_array(N, a);
+    printf("\n The elements of the second array are:\n");
+    print_array(N, b);
+    printf("\n The elements of the array that contains the sum are:\n");
+    print_array(N, c);
 
-int *addarrays(int N, int x[], int y[], int z[])
-    {	    int i;
-		for (i=0; i<N; i++)
-		{ z[i] = x[i] + y[i];
-					}
-		return z;
-	}
+    getch();
+    return 0;
 
-/* read_array allows a user to input the elements of an array a[] of size N
-    it returns nothing******************************************************
-*/
 
-void read_array(int N, int a[])
-    { 	int i;
-		for (i=0; i<N; i++)
-		{	printf("Enter element a[%d]:", i);
-			scanf("%d", &a[i]);
-		}
-	}
-
-/* print_array allows a user to print the elements of an array a[] of size N
-    it returns nothing******************************************************
-*/
-
-void print_array(int N, int a[])
-    {	int i;
-		for (i=0; i<N; i++)
-		{	printf("\t %d", a[i]); }
-	}
-
+}
