@@ -1,0 +1,52 @@
+NAME EBIRI STELLA
+REG NUMBER 17/U/1674
+STUDENT NUMBER 217001750
+BSC TELECOM
+
+
+#include <stdlib.h>
+void addarrays(int m[7],int n[7]);
+int main()
+{
+    int m[7] ={4 ,5, 6, 7, 8, 9,10};
+    int n[7] ={4 ,5, 6, 7, 8, 9,10};
+addarrays(m,n);
+return 0;
+}
+void addarrays(int m[7], int n[7])
+{
+
+int c[7];
+int i;
+for(i=0;i<=10; i++)
+{
+    c[i]= (int m[7], int n[7])
+printf("the sum is %d\n",c[i]);
+}
+return 0;
+}
+
+Part two
+#include <stdio.h>
+#include <stdlib.h>
+
+void *addarrays( int m[7], int n[7]);
+  int main (){
+  int m[7] ={4 ,5, 6, 7, 8, 9,10};
+  int n[7] ={4 ,5, 6, 7, 8, 9,10};
+ 
+  int *c=addarrays( int m[7], int n[7]);
+
+ int i;
+ for(i=0;i<7;i++){
+printf("%d",c[i]);
+     }
+     return 0;
+    }
+void *addarrays( int m[7], int n[7])
+int *addarrays ( int m[7], int n[7]){
+int c[i]=m[i]+n[i];
+}
+
+
+    
