@@ -1,0 +1,15 @@
+QUESTION THREE
+a)	Long int array[50];
+b)	Long int array[49]=123.456
+c)	The values of x will be from 0 to 99 as the program keeps adding 1 till 99
+d)	Ctr=8
+e)	#include <stdio.h>
+main()
+{
+	int count=1;
+While(count<=100){
+             printf("%d",count);
+            count+=3;}
+}
+f)	The for loop is not supposed to be terminated .
+There should be carry bracelets  after the for function  
