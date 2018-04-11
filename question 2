@@ -1,0 +1,13 @@
+____________________________________
+#inlude<stdio.h>
+float do_it(char a, char b, char c);
+
+_____________________________________
+#inlude<stdio.h>
+void print_a_number(int x)
+
+____________________________________
+the declaration of the 'print_msg()' function
+indicates its not supposed to have any arguments
+but the main function calls it with a string argument
+"void print_msq(void)"     //print_msg function declared is misspelt as print_msq//
