@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1523444122 source:c:\users\hp\desktop\assignment3\threec.c
+	<stdlib.h>
+	<stdio.h>
+
+1523441436 source:c:\users\hp\desktop\assignment3\main.c
+	<stdlib.h>
+
