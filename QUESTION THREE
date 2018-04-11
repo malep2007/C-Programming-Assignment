@@ -1,0 +1,39 @@
+NAME: MURAMUZI ADAM
+REG. NO: 17/U/6587/PS
+STUDENT NO.217003465
+COURSE: BSTE
+
+
+ part one
+long values[50];
+
+
+
+part two
+float values[49]=123.456;
+
+
+Part three
+The last value of x is equal to 99 when the statement is complete.
+
+Part four
+The last value of x is equal to 8 when the statement is complete.
+
+Part five
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+int y=1;
+while(y<=100){
+
+printf("%d",y);
+y+=3;
+}
+return 0;
+}
+
+Part six
+The for-loop should not be terminated.
+The variable counter was not declared as an integer type int.
+The printf of the for loop was not put in its own braces after the for statement.
+

@@ -1,0 +1,20 @@
+NAME: MURAMUZI ADAM
+REG. NO: 17/U/6587/PS
+STUDENT NUMBER:217003465
+COURSE: BSTE
+
+#include<stdio.h>
+int x=1;//the statement is terminated using a semi-colon not using a colon..
+int main()//the function main returns 0 only when it has been declared to return an integer..
+{
+if(x=1);//The if statement is not supposed to be terminated and it should have opening braces before in putting the printf function
+{
+printf("x equals one");
+}
+otherwise// The if statement works with the else 
+else
+{
+printf("x doesnot equal to one");
+}
+return 0;
+}
