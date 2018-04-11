@@ -1,0 +1,5 @@
+a)	float do_it (char arg1,  char arg2, char arg3)
+b)	void print_a_number (int)
+c)	Since the print_msg() function is a void function, it’s not supposed to take on any argument. However the above program returns an argument yet it is a void function.
+There are too many arguments for the program to function “print_msg”
+
