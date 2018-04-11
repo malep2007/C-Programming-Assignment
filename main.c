@@ -1,15 +1,9 @@
-#include <ctype.h>
 #include <stdio.h>
-
+int x=1;
 main(){
-    char some_string[] = {};
-    for (int i = 0; i < 20; ++i) {
-        scanf("%s", some_string);
-        if (some_string[i] == EOF)
-        {
-            break;
-        }
-    }
-    putchar(some_string);
-
+if (x==1)
+printf("x equals 1");
+else
+printf("x does not equal 1");
+return 0;
 }
