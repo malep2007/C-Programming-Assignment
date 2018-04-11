@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+int *addarrays(int array1[], int array2[], int SIZE);
+int main()
+{
+int array1[5] = {12,15,13,2,16};
+int array2[5] = {3,14,1,10,21};int *array3 = addarrays(array1, array2, 5);
+for(int i=0;i<5;i++)
+   {
+   printf("%d \n", array3[i]);
+   }
+}
+int *addarrays(int array1[], int array2[], int length)
+{
+  int *destination_array = malloc(length * sizeof(int));
+  for(int i=0;i<length;i++)
+   {
+    destination_array[i] = array1[i] + array2[i];
+    }
+return destination_array;
+}
