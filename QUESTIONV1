@@ -1,0 +1,15 @@
+/* a program with problems........*/
+#include <stdio.h>
+int x = 1;
+int main()
+{
+
+    if(x==1)
+        printf("x equals 1", x);
+    else
+        printf("x doesnot equal to 1");
+
+    return 0;
+
+
+}
