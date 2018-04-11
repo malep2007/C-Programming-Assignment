@@ -1,0 +1,17 @@
+#include <stdio.h>
+                    void print_msg( void );
+                    main(){
+                        print_msg("This is a message to print");
+                        return 0;
+                    }
+                    void print_msq( void )
+                    {
+                        puts("This is a message to print");
+                        return 0;
+                    }
+
+
+
+the function name in the function prototype(print_msg) is different from the function name in the function header(print_msq)
+
+the program returns a value for a void function and there are many argument to the function print_msg
