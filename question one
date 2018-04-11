@@ -1,0 +1,14 @@
+/*A program without a problem*/
+#include <stdio.h>
+main()
+
+{
+  int x=1;
+  if(x==1)  /* in the previous program they used if(x=1) instead of if(x==1)*/
+  {
+      printf("x equals 1");
+  }
+  else    /* in the previous program they used otherwise instead of else*/
+  printf("x does not equal 1");
+  return 0;
+}
