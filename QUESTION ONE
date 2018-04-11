@@ -1,0 +1,21 @@
+NAME: NANTALE SANDRA
+REG: 17/U/20306/PS
+COURSE: BELE
+STUDENT NUMBER: 217022080
+
+
+#include<stdio.h>
+int x=1;// This is supposed to be terminated with a semi colon.
+int main()//The main function is supposed to have a return type of an integer before the word main.
+{
+if(x=1);//The if statement is not supposed to be terminated and it should have opening braces before in putting the printf function
+{
+printf("x equals one");
+}
+otherwise// The if statement works with the else 
+else
+{
+printf("x doesnot equal to one");
+}
+return 0;
+}
