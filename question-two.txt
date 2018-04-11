@@ -1,0 +1,5 @@
+float do_it(char a,char b,char c);
+
+void print_a_number(int a);
+
+In the main function when calling the function,there was no need to put the words "This is a message to print" because it creates too many arguments

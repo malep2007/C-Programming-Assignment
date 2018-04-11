@@ -1,0 +1,17 @@
+ long a[50];
+
+a[49]=123.456;
+
+the value of x is 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,.............,96,97,98,99
+
+the value of ctr is 2,5,8
+
+int x=1;
+while(x<=100)
+{
+printf("%d\n",x);
+x+=3;
+}
+
+The for loop has been terminated which is not supposed to happen
+
