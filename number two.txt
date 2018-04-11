@@ -1,0 +1,4 @@
+float do_it(char , char ,char );
+void print_a_number(int);
+
+When calling the print_msg function in the main function, it is not supposed to take on any argument. Therefore the error in the code was print_msg("This is a message to print");
