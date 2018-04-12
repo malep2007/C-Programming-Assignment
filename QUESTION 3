@@ -1,0 +1,43 @@
+
+    long int digits[50];
+
+    digits[49] = 123.456;
+
+
+
+
+   
+    for (x=0; x<100; x++){
+        printf(" %d\t",x);
+    } /*final value of x is 100*/
+
+    
+    for (ctr=2; ctr<10; ctr+=3){
+        printf(" %d\t",ctr);
+    } /*final value of ctr is 11*/
+
+
+   #include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int count=1;
+    while(count<=100){
+        printf(" %d\t",count);
+        count +=3 ;
+        }
+        return 0;
+    }
+
+
+    /* for (counter = 1; counter < MAXVALUES; counter ++);
+    printf("\n Counter = %d", counter); */
+
+    /* curly braces not used after the 'for' condition,
+    and the 'for loop' was not supposed to be terminated.*/
+
+
+    return 0;
+}
+
