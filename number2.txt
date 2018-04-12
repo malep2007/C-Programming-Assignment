@@ -1,0 +1,23 @@
+Number Two
+Write a header file for a function do_it() that takes three type char arguments
+and returns a type float to the calling program
+
+Answer
+#ifndef DO_IT_H
+#define DO_IT_H
+float do_it(char t, char z, char q);
+#endif // DO_IT_H
+
+Write a header file for a function print_a_number() that takes a single type int
+argument and returns a type float to the calling program
+
+Answer: (print_a_number.h)
+#ifndef PRINT_A_NUMBER_H
+#define PRINT_A_NUMBER_H
+void print_a_number(int g);
+#endif // PRINT_A_NUMBER_H
+
+What’s wrong with the following program
+Answer:
+The print_msg() function is not supposed to take any arguments but the
+main function calls it with a string argument. 
