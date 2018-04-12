@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<stdlib.h>
+main()
+{
+    //let a be the 50 type long values
+    float values[50];//this is the declaration of the array with 50 type long values
+    values[49]=123.456;// the value 123.456 is assigned to the 50th element in the array
+	printf("%.3f",values[49]);
+	return 0;
+}
