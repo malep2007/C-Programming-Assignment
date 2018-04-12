@@ -1,0 +1,46 @@
+/*
+Qn3
+Code by Nsubuga Richard, 17/U/20353/PSA, BELE
+a) Write a declaration for an array that will hold 50 type long values.
+   Solution
+   long double SumOfMoney[50];//took it as along double because part b) had a fraction in it, could not use
+   only long which is for integers
+
+b) Show a statement that assigns the value of 123.456 to the 50th element in the array from the above question.
+   Solution
+   long double SumOfMoney[49]=123.456;
+
+c) What is the value of x when the following statement is complete?
+   for (x = 0; x<100; x++)
+   Solution
+   The values of x will be form 0 to 99, i.e after the for loop looping 100 times
+
+d) What is the value of ctr when the following statement is complete?
+   for(ctr=2;ctr<10;ctr+=3)
+   solution
+   The values of ctr will be 2,3 and 8
+
+
+e) Write a while statement to count from 1 to 100 by 3s
+   Solution
+*/
+#include <stdio.h>
+
+int main()
+{
+    int counter=1;
+    while(counter<=100)
+    {
+        printf("%d\n",counter);
+        counter+=3;
+    }
+    return 0;
+}
+    /*
+f) What is wrong with the following code fragment (MAXVALUES is not the problem!)
+   for(counter = 1;counter<MAXVALUES;counter++);
+   printf("\nCounter = %d", counter);
+   Solution
+    The for loop has been terminated by using the semi colon, this is a wrong practice for a for loop
+
+    */
