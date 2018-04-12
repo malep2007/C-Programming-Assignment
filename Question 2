@@ -1,0 +1,24 @@
+//Part 1. float do_it(char X, char Y, char Z)
+
+//Part 2. void print_a_number(int X)
+
+//Part 3.
+/* Errors in the following program are mentioned in the comments...*/
+
+#include <stdio.h>
+
+void print_msg(void);
+
+main ()
+{
+    print_msg("This is a message to print"); //No parameters are meant to be in the function call since the function was declared and defined as being void of arguments
+
+    return 0;
+}
+
+void print_msq(void)    //The function definition has an identifier 'print_msq' which is different from 'print_msg' in the function declaration
+{
+    puts("This is a message to print");
+
+    return 0;
+}
