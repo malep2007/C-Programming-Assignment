@@ -1,0 +1,18 @@
+#include <stdio.h>
+void print_msg(void);
+
+main()
+{
+    print_msg();
+    return 0;
+}
+
+void print_msg(void)
+{
+    puts("This is a message to print");
+    return 0;
+}
+/*the function name must be the same. it was wrong to put print_msq instead of print_msg*/
+
+/* so the above program corrected prints 'This is a message to print'*/
+/*the funtion has arguments yet the declaration function had no arguments*/
