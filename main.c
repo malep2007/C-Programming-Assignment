@@ -1,15 +1,16 @@
-#include <ctype.h>
+//NAME: AHEREZA SARAH
+//REG_NO: 16/U/35
+//COURSE: COMPUTER ENGINEERING
 #include <stdio.h>
+int main()
+{
 
-main(){
-    char some_string[] = {};
-    for (int i = 0; i < 20; ++i) {
-        scanf("%s", some_string);
-        if (some_string[i] == EOF)
-        {
-            break;
-        }
-    }
-    putchar(some_string);
+int count = 1;
+while(count <= 100){
+printf("%d ", count);
+count += 3;
 
 }
+}
+
+
