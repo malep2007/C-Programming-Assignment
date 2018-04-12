@@ -1,0 +1,21 @@
+	//Question 3 part 1
+	Long Sandra[50];  
+	//Question 3 part 2
+	Sandra[49] = 123.456; 
+	//Question 3 part 3
+	0 - 99 
+	//Question 3 part 4
+	2, 5, 8
+//question 3 part 5
+while(count>=1&&count<=100){
+	printf("enter values are %d\n ",count);
+    count++;
+}
+//Question 3 part 6
+ //for loop was terminated
+ for (counter=1;counter<MAXVALUES;counter++);
+printf("\nCounter = %d",counter);
+
+
+
+
