@@ -1,0 +1,41 @@
+/*
+Code by Nsubuga Richard, 17/U/20353/PSA, BELE
+Fix the Bug in the following code so that it runs correctly
+a program with problems …..
+#include<stdio.h>
+int x = 1:
+main( )
+{
+if (x=1);
+printf(“x equals 1”);
+otherwise
+printf(“x does not equal 1”);
+return 0;
+}
+*/
+//Below is the correct code with comments on where the error was
+
+/*preprocessor that includes functions found
+in the header file stdio.h*/
+#include<stdio.h>
+
+/*The global variable x was not terminated correctly,
+a full colon was used instead of a semi colon*/
+int x = 1;
+
+/*The main function has no return value and no arguments
+ (this is were the program begins executing)*/
+main( )
+//opening curly brace for the main function
+{
+  //The if function was terminated which is a wrong way of using the the if statement
+if (x=1)
+    //when x=1 the print function will print the argument of the printf function.
+printf("x equals 1");
+//here otherwise was used insteady of the else
+else
+    //when the value of x is greater or less than x then the statement on this line will be printed
+printf("x does not equal 1");
+return 0;//Terminates the main function and returns a zero (0)
+}
+
