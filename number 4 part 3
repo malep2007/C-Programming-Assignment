@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+void addarrays(int a[],int b[]);
+int d[2]={1,2};
+int e[2]={2,3};
+int c[2];
+int i;
+int main()
+{
+    addarrays(d,e);
+    return 0;
+}
+void addarrays(int a[],int b[]){
+    for(i=0;i<2;i++){
+        c[i]=a[i]+b[i];
+        printf("%d ",c[i]);
+
+    }
+}
