@@ -1,0 +1,32 @@
+section 1
+#include <stdio.h>
+#include<stdlib.h>
+int main()
+{
+    long  a[50];/* an array of size 50 of the type long double*/
+    
+section 2
+   long a[49]=(123.456);
+
+section 3
+  x=100
+  
+section 4
+   ctr=11
+   
+   
+section 5 
+  #include<stdio.h>
+   int main(){
+   int count=1;
+   while(count<=100){
+    printf("\n%d",count);
+    count+=3;
+   }
+   return 0;
+   }
+   
+   section 6
+   The for loop is not supposed to be terminated.
+
+
