@@ -1,0 +1,18 @@
+A)
+float do_it(char 1,char 2, char 3);// we dont have to terminate 
+
+B)
+void print_a_number (int x );
+
+C)
+#include<stdio.h>
+void print_msg(void);
+main ()
+{
+    print_msg();
+    return 0;
+}
+void print_msg(void)//the variable was wrongly spelt (print_msg)
+{
+puts("This a message to print");
+}
