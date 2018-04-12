@@ -1,27 +1,17 @@
-
-//Answers of question 3:
-//i)	long values[50];
-
-//ii)	long values[49] = 123.456;
-
-//iii)	x is equal to 99  when the statement is complete
-
-//iv)	The value of ctr is 8  when the statement is complete
-
-
-
-
-//v)
+//NAME: NAKALEMBE AGNES
+//REG_NO: 16/U/811
+//COURSE: COMPUTER ENGINEERING II
 #include <stdio.h>
-main(){
-int x = 1;
-while(x <= 100){
-//vi)
-  printf("The value of x : %d\n ", x);
-  x += 3;
+#include <stdlib.h>
+int i=0;
+int main()
+{
+    void AddArrays(int array1[], int array2[], int destination_array[], int size)
+    {
+    for(i=0;i<size;i++)
+    {
+    destination_array[i] = array1[i] + array2[i];
 }
 }
-//Comment: The X will be counted from 1 to 100 by adding 3
 
-//vii)	We don’t have to put the semicolon to terminate the for loop and the statements for a for loop should be enclosed.
-
+}
