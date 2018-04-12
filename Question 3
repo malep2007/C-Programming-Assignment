@@ -1,0 +1,31 @@
+QUESTION 3.
+
+(a)long array1[50];
+
+(b)array1[49] = 123.456;
+
+ (c)x will be 99.
+
+ (d)ctr will be 8.
+
+
+(e).
+
+#include<stdio.h>
+int main()
+{
+    int counter;
+    counter =1;
+    while(counter <=100)
+    {
+        printf("%d\n",counter);
+        counter +=3;
+
+    }
+}
+
+
+(f).
+
+for (counter = 1; counter <MAXVALUES; counter++);  //THE PRESENCE OF THE SEMICOLON AFTER THE FOR LOOP PARENTHESIS WILL NOT ALLOW THE STATEMENTS FOLLOWING TO LOOP
+printf("\nCounter = %d", counter);
