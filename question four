@@ -1,0 +1,55 @@
+question four
+/*NAME:AHUMUZA BRIAN
+ REG NO:17/U/2223/PS
+ COURSE:TELCOM*/
+
+
+
+#include<stdio.h>
+void add arrays(int m[10], int n[10]);
+int main()
+{
+    int m[10]={1,2,,3,4,5,6,7,8,9,10};
+    int n[10]={11,12,13,14,15,16,17,18,19,20};
+    add arrays(m,n);
+    return 0;
+}
+void add arrays(int m[10], int n[10])
+{
+    int p[10];
+    int a;
+    for (a=0;a<=10;a++)
+    {
+        p[a]=m[a]+n[a];
+        printf("the sum is %d\n",p[[a])
+    }
+}
+
+
+/*part b*/
+#include<stdio.h>
+int*add arrays(int array1[10], int array 2[10], int size);
+int main()
+{
+    int array1[10]={1,2,,3,4,5,6,7,8,9,10};
+    int array2[10]={11,12,13,14,15,16,17,18,19,20};
+    int*array 3=addarrays(array1, array2,5);
+
+    for (a=0; a<5; a++)
+    {
+        printf("%d\n", array3[a]);
+
+    }
+    }
+    int*add arrays(int array1[10],int array2[10]int length);{
+    int*destination_array=malloc(length*sizeof(int));
+    for int(a=0; a<length; a++)
+    {
+        destination_array[a]=array1[a]+array2[a];
+
+    }
+    return destination_array;
+    }
+
+
+
