@@ -1,0 +1,13 @@
+long values[50];
+long values[49]=123456;
+x is equalto 100 when the statement is complete
+the value of ctr is 11 when the statement is complete 
+
+#include<stdio.h>
+main(){
+  if(x==1)
+     printf("x equals 1")
+   else
+     printf("x does not equal 1");
+   return0;
+ }
