@@ -1,0 +1,40 @@
+/*names: murindanyi sudi
+ registration number: 16/x/2338/ps
+ program: computer engineering
+ year:year 2*/
+//ANSWERS:
+//i)
+void addarrays(int array1[], int array2[], int summation_array[], int SIZE)
+{
+ for(int i=0;i<SIZE;i++)
+{
+//ii)
+summation_array[i] = array1[i] + array2[i];
+}
+}
+
+//iii)
+#include <stdio.h>
+int *addarrays(int array1[], int array2[], int SIZE);
+
+main(){
+//iv)
+int array1[] = {1,2,3,4,5};
+
+int array2[] = {6,7,8,9,10};
+
+int *array3 = addarrays(array1, array2, 5);
+
+for(int i=0;i<5;i++) {
+//v)
+     printf("%d \n", array3[i]);
+}
+}
+int *addarrays(int array1[], int array2[], int length){
+ int *destination_array = malloc(length * sizeof(int));
+for(int i=0;i<length;i++){
+//vi)
+destination_array[i] = array1[i] + array2[i];
+}
+return destination_array;
+}
