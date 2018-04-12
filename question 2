@@ -1,0 +1,33 @@
+ //part 1//
+ #include(do_it.h)
+#ifndef DO_IT_H
+#define DO_IT_H
+float do_it(char 1, char 2, char 3);
+#endif
+
+//part 2//
+#inlude(print_a_number.h)
+#ifndef PRINT_A_NUMBER_H
+#define PRINT_A_NUMBER_H
+void print_a_number(int x);
+#endif
+
+ //part3// 
+  #include<stdio.h>
+  void print_msg(viod);
+   main()
+{
+    print_msg("This is a message to print");
+     //the comment in the parenthesis is not meant to be there the becaused function assigned viod thus the parenthesis
+      //should be left empty//
+    return 0;
+ }
+    void print_msq( void )
+    //the function was defined as print_msg(void) not print_msq(void) thus msq should be replaced by msg"
+ {
+    puts("This is a message to print");
+
+    return 0;
+
+
+}
