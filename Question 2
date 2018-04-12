@@ -1,0 +1,44 @@
+QUESTION 2.
+
+
+(a).
+
+float do_it(char A, char B, char C)
+
+(b). 
+
+void print_a_number(int A)
+
+(c).
+     //WRONG CODE.
+#include <stdio.h>
+void print_msg( void );//THE FUNCTION NAME IS DIFFERENT FROM WHAT HAS BEEN DECLARED THAT IS THE FUNCTION NAME DECLARED WAS print_msq AND THE FUNCTION CALLED WAS print_msg
+main()
+{
+    print_msg("This is a message to print");//THE FUNCTION WHICH HAS BEEN CALLED DOES NOT ALLOW PARAMETERS YET IN THIS CODE A PARAMETER HAS BEEN ADDED.
+    return 0;
+}
+void print_msq( void )
+    {
+    puts("This is a message to print");
+    return 0;
+    }
+
+                    //THE CORRECT CODE WOULD BE AS SHOWN BELOW.
+
+
+/*#include <stdio.h>
+void print_msq( void );
+main(){
+    print_msq();
+    return 0;
+      }
+
+    void print_msq( void )
+      {
+    puts("This is a message to print");
+    return 0;
+      }
+      */
+
+
