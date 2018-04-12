@@ -1,0 +1,16 @@
+ /* a program with problems...*/
+#include <stdio.h>
+int x =1;         /*Use of semicolon*/
+main()
+{
+    if(x==1)      /*apply the double equal signs instead of one*/
+            {
+              printf("x equals 1\n");
+            }
+    else          /* use else instead of otherwise*/
+        {
+    printf(" x does not equal 1");
+        }
+    return 0;
+}
+
