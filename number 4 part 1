@@ -1,0 +1,52 @@
+//Question 4 part 1
+
+
+#include<stdio.h>
+
+float *addarrays(float arraya[],float arrayb[],int size)
+{
+    int x;
+    printf("please enter the size\n");
+    scanf("%d",&size);
+    float arrayc[size];
+    printf(" Please enter the  values of arraya:\n");
+    for(x=0;x<size;x++)
+    {
+
+        scanf("%f",&arraya[x]);
+
+
+    }
+    printf("Please enter the values of arrayb:\n");
+    for(x=0;x<size;x++)
+    {
+
+        scanf("%f",&arrayb[x]);
+
+    }
+    printf("The values of arrayc are:\n");
+    for(x=0;x<size;x++)
+    {
+    arrayc[x]=arraya[x]+arrayb[x];
+
+    printf("\t%.0f",arrayc[x]);
+    }
+    printf("\nThe pointers of arrayc are;\n");
+    {
+        for(x=0;x<size;x++)
+        {
+            printf("\t%X",&arrayc[x]);
+        }
+    }
+
+}
+int main()
+{
+
+    float arraya[200];
+    float arrayb[200];
+
+    *addarrays(arraya,arrayb,200);
+    return 0;
+
+}
