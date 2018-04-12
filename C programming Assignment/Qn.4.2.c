@@ -27,13 +27,16 @@ int main(void) {
   int *y;
   y = addarrays(array_first, array_second, n);
   printf("array one: ");
+  int array_one[n];
   for (i=0; i < n; i++){
   printf("%d,", array_one[i]);
   }
+  int array_two[n];
   printf("\narray two: ");
   for (i=0; i < n; i++){
   printf("%d,", array_two[i]);
   }
+  int x[n];
   printf("\nresults array: ");
   for (i=0; i < n; i++){
   printf("%d,", x[i]);
