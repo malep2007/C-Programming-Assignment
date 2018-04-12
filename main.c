@@ -1,15 +1,9 @@
-#include <ctype.h>
+/* OLOWO ARTHUR 16/U/10978/PS */
 #include <stdio.h>
-
-main(){
-    char some_string[] = {};
-    for (int i = 0; i < 20; ++i) {
-        scanf("%s", some_string);
-        if (some_string[i] == EOF)
-        {
-            break;
-        }
-    }
-    putchar(some_string);
-
+int main()
+{
+    #ifndef DO_IT_H
+    #define DO_IT_H
+    float do_it(char x, char y, char z);
+    #endif
 }
