@@ -41,10 +41,10 @@ Question two (b)
 void print_a_number(int x);
 
        				 print_a_number.c
- // print_a_number.h is a header file that contains the function declaration
-
-/*  We are declaring the function print_a_number to be taking on a single argument of
-    integer type and the function returns nothing************************************/
+ // print_a_number.c is a source file that contains the function definition
+#include <stdio.h>
+#include <stdlib.h>
+#include "print_a_number.h"
 
 void print_a_number(int x);
 	{
