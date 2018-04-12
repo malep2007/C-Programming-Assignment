@@ -1,0 +1,43 @@
+/*QUESTION 2 PART 1*/
+//do_it.h DECLARATION
+float do_it(char x, char y, char z);
+
+
+do_it.c
+#include<stdio.h>
+#include<stdlib.h>
+#include"do_it.h"
+float do_it(char x, char y,char z) //DEFINING A FUNCTION
+{
+statements--------
+}
+
+/*QUESTION 2 PART 2*/
+//print_a_number.h declaration
+void print_a_number(int a);
+
+
+print_a_number.c
+#include<stdio.h>
+#include<stdlib.h>
+#include"print_a_number.h"
+void print_a_number(int a)//DEFINING A FUNCTION
+{
+statements---------
+}
+
+
+/*QUESTION TWO PART 3*/
+#include<stdio.h>
+voidprint_msg( void );
+main()//FOR "MAIN" TO RETURN 0 IT SHOULD BE DECLARED AS "int main""
+{
+print_msg("This is a message to print");/*THIS SHOULD NOT BE WITH ANY ARGUMENTS IN THE BRACKETS*/
+return 0;
+                    }
+voidprint_msq( void )//THE WORD msg IS WRONGLY SPELLED
+                    {
+puts("This is a message to print");
+return 0;
+                    }
+
