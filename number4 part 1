@@ -1,0 +1,54 @@
+/*void addarrays(int W, int x[],int y[],int z[]){
+int i;
+for(i=0; i<W; I++)
+
+{
+    z[i]=x[i]+y[i];
+}
+
+}
+*/
+
+
+#include <stdio.h>
+#include <stdlib.h>
+int W, i;
+int *addarrays(int W,int x[],int y[],int z[]){
+int i;
+for(i=0; i<W; i++)
+    {
+        z[i]=x[i]+y[i];
+    }
+    return 0;
+}
+void arrays_elements(int W, int a[]){
+for (i=0; i<W ; i++)
+      printf("\n%d",a[i]);
+}
+void print_elements(int W, int a[]){
+    for(i=0; i<W; i++){
+printf("enter element");
+scanf("%d",&a[i]);}
+      }
+      int main(){
+      int x[W], y[W],z[W];
+      printf("enter size of the arrays");
+      scanf("%d",&W);
+      printf("enter elements of the 1st array:\n");
+      print_elements(W,x);
+      printf("enter elements of the array two:\n");
+      print_elements(W,y);
+      int*p;
+      p=addarrays(W,x,y,z);
+      printf("elements of array 1 are:\n");
+      print_elements(W,x);
+      printf("elements of array 2 are:\n ");
+      print_elements(W,y);
+      printf("elements of array that contain sum are:\n");
+      print_elements(W,z);
+      return 0;
+      }
+
+
+
+
