@@ -1,0 +1,4 @@
+for(ctr = 2; ctr<10; ctr+=3)
+When the above statement is complete:
+  >The values of ctr are 2, 5 and 8
+  >The last value of ctr is 8
