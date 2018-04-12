@@ -6,7 +6,7 @@
 
 
 
-Question Three
+Question Three (a)
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -26,19 +26,23 @@ int main ()
 	}
 	
 	
-	
+Question three (b)
+
 	What is the values of x when the following statement in complete ?
        for (x = 0; x < 100; x++),
        
        ANSWER: x will be equal to 100.
-       
+
+Question three (c)
+
        What is the value of ctr when the following statement is compelte ?
        for(ctr = 2; ctr < 10; ctr += 3),
        
        ANSWER: ctr will be equal to 11.
        
        
-       
+Question three (d)
+
        /* The while statement*****************************************************/
 
   #include <stdio.h  // The while statement.
@@ -59,7 +63,7 @@ int main ()
 	}
 	
 	
-	
+Question three (e)
 	
     What is wrong with the following code fragment (MAXVALUES is not the problem !)
     for (counter = 1; counter < MAXVALUES; counter++ );     
