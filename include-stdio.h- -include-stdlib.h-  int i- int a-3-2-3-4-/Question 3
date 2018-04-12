@@ -1,0 +1,16 @@
+long   a[50];      
+
+a[49]=123.456;
+
+x=100
+
+ctr=11
+
+counter=1;
+while(counter<=100) {
+counter+=3;
+}
+
+
+
+for() loop should not be terminated and curly brackets should be used the printf() function
