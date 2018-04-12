@@ -1,0 +1,2 @@
+print_msg is a void function and also its parameter values are void hence nothing is supposed
+to be in the parameter value at it's calling
