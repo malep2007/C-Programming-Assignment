@@ -1,3 +1,0 @@
-/cygdrive/d/Documents/Makerere/2017-2018 Fundamentals of Prorgramming/test_code/Cplusplus_programming/RevisionCode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/d/Documents/Makerere/2017-2018 Fundamentals of Prorgramming/test_code/Cplusplus_programming/RevisionCode/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/d/Documents/Makerere/2017-2018 Fundamentals of Prorgramming/test_code/Cplusplus_programming/RevisionCode/cmake-build-debug/CMakeFiles/RevisionCode.dir
