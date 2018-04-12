@@ -1,0 +1,32 @@
+/* Number 2*/
+ #include <stdio.h>
+    float do_it(char a,char b,char c);
+    int main(){
+          	
+         return 0;     	
+	   }
+                   
+	
+
+/* part b*/
+#include <stdio.h>
+void print_a_number(int a);
+int main (){
+
+return 0;	
+}
+
+
+/* part c*/ 
+#include <stdio.h>
+                    void print_msg( void ); 
+                    main(){
+                        print_msg("This is a message to print");// the function here is undefined  
+                          
+                        return 0;
+                    }
+                    void print_msq( void ) // the function print_msq is unused
+                    {
+                        puts("This is a message to print");
+                        return 0; //a void function returns nothing
+                    }
