@@ -1,0 +1,67 @@
+//*QUESTION FOUR PART 1*//
+void addarrays (int p, int x[], int y[], int z[])//*THIS IS A FUNCTION DIFFINITION AND IT TAKES ON4 ARGUEMENTS*//
+{
+    int i;
+    for (i=0;i<p;i++)
+    {
+        z[i]=x[i]+y[i];
+    }
+}
+
+//*PART 2*//
+
+#include <stdio.h>
+#include <stdlib.h>
+int m,p;
+int *addarrays(int N, int x[],int y[],int z[])
+{
+    for (m=0;m<N;m++)
+    {
+        z[m]=x[m]+y[m];
+    }
+    return z;
+}
+
+int main()
+{
+int  p, x[p], y[p], z[p], *address;
+printf("ENTER ARRAY SIZE\n");
+scanf("%d",&p);
+printf("ENTER ELEMENTS OF ARRAY x[]");
+ for (m=0;m<p;m++)
+    {
+        printf("ENTER ELEMENTS OF x[m]\n",m);
+        scanf("%d",x);
+    }
+printf("ENTER ELEMENTS OF ARRAY y[]");
+ for (m=0;m<p;m++)
+    {
+        printf("ENTER ELEMENTS OF y[m]\n",m);
+        scanf("%d",y);
+    }
+address=addarrays(p, x, y, z);
+printf("THE ADDRESS OF z[] IS %d\n",address);
+printf("ELEMENTS OF ARRAY x[] array:\n");
+ for(m=0;m<p;m++)
+        {
+            printf("%d",x[m]);
+        }
+printf("ELEMENTS OF ARRAY y[] array:\n");
+ for(m=0;m<p;m++)
+        {
+            printf("%d",y[m]);
+        
+printf("ELEMENTS OF ARRAY z[] array:\n");
+ for(m=0;m<p;m++)
+        {
+            printf("%d",z[m]);
+        }
+
+
+
+    return 0;
+}
+
+
+
+
