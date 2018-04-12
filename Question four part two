@@ -1,0 +1,46 @@
+/*modification of the function declared in part 1*/
+#include <stdio.h>
+#include <stdlib.h>
+int arr3[]={};
+int *addarrays(int arr1[],int arr2[],int k);
+int main()
+{
+    int i,k;
+    printf("Enter the size of the arrays: \n");
+    scanf("%d",&k);
+    int arr_one[k],arr_two[k];
+    printf("Enter the first array: \n");
+    for(i=0;i<k;i++){
+    scanf("%d",&arr_one[i]);
+    }
+    printf("Enter the second array: \n");
+    for(i=0;i<k;i++){
+    scanf("%d",&arr_two[i]);
+    }
+    int *x;
+    x=addarrays(arr_one,arr_two,k);
+    printf("array one ");
+    for(i=0;i<k;i++){
+    printf("%d",arr_one[i]);
+    }
+    printf("array two ");
+    for(i=0;i<k;i++){
+    printf("%d",arr_two[i]);
+    }
+    printf(" \n array three ");
+    for(i=0;i<k;i++){
+    printf("%d",x[i]);
+    }
+    return  0;
+}
+int *addarrays(int arr1[],int arr2[], int k){
+int i=0;
+for(i=0;i<k;i++){
+arr3[i]=arr1[i]+arr2[i];
+}
+int *t;
+t=arr3;
+return t;
+
+}
+
