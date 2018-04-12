@@ -1,0 +1,45 @@
+/*Qn2
+Code by Nsubuga Richard, 17/U/20353/PSA, BELE
+a) Write a header for a function named do_it( ) that takes
+   three type char arguments and returns  type float to the calling program.
+   Solution
+   float do_it(char char1,char char2,char char3)//This is the header for the function do_it
+
+b) Write a header for a function named printf_a_number ( ) that takes
+   a single type int argument and doesn’t return anything to the calling program.
+   Solution
+   void printf_a_number(int num)//This is the header for the function printf_a_number
+
+c) What’s wrong with the following program?
+    #include <stdio.h>
+    void print_msg(void);
+    main( ){
+    print_msg("this is a message to print");
+    return 0;
+    }
+    void print_msq(void)
+    {
+    puts("This is a message to print");
+    return 0;
+    }
+    */
+//the correct program is as below
+#include <stdio.h>
+    void print_msg(void);
+    main( ){
+    print_msg();
+    return 0;
+    }
+    void print_msg(void)
+    {
+    puts("This is a message to print");
+    return 0;
+    }
+/*Corrected errors
+1. The function prototype has no formal argument/parameter but
+the function call is having an Actual argument so the program
+cannot proceed to call the function.
+2. The function declaration and the function header were
+using different function names, declaration was using
+"printf_msg" and header was using printf_msq*/
+
