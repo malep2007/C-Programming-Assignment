@@ -1,19 +1,12 @@
-//NAME: NAKALEMBE AGNES
-//REG_NO: 16/U/811
-//*STUDENT NO:216001305S
-//COURSE: COMPUTER ENGINEERING II
-
+//*NAME:NAKALEMBE AGNES
+//*REG NO.16/U/811
+//*STUDENT NO:216001305
 #include <stdio.h>
-
-int x=1;
+//print_a_number_h
 int main()
-
-{
-//int x = 1;
-if(x==1)
-printf ("x equals 1");
-else
-printf ("x does not equal 1");
-return 0;
+    {
+    #ifndef PRINT_A_NUMBER_H
+    #define PRINT_A_NUMBER_H
+    void print_a_number(int x);
+    #endif
 }
-
