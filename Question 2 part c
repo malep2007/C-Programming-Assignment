@@ -1,0 +1,3 @@
+the function definition "print_msq" is different from the functionj declaration "print_msg"
+AND
+The function didnt expect any arguments because it is of the void type but main function calls a string argument.
