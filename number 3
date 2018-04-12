@@ -1,0 +1,99 @@
+Number 3a solution;
+
+float a[50]
+
+
+Number 3b solution;
+
+a[49]=123.456;
+
+ 
+number 3c solution;
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int x;
+    for(x=0;x<100;x++)
+    printf("%d\n",x);
+    return 0;
+}
+
+/* 0<=x<=99*/
+
+
+
+number 3d solutions;
+
+#include <stdio.h>
+
+int main()
+{
+    int ctr;
+
+    for(ctr=2;ctr<10;ctr+=3)
+
+    printf("%d\n",ctr);
+
+    return 0;
+}
+/*the value of ctr is 2,5 and 8*/
+
+
+
+number 3e solutions;
+
+#include <stdio.h>
+
+int main()
+{
+    int b=1;
+
+while (b<=100)
+{
+    printf("%d\n",b);
+
+    b+=3;
+
+    }
+
+    return 0;
+}
+/*the values of x ranged 1<=x<=100*/
+
+
+
+number 3f solutions;
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int counter
+
+    for(counter=1; counter<MAXVALUES;counter ++);
+
+    printf("\nCounter=%d",counter);
+
+}
+/*'counter' undeclared, its supposed to declared as an int with ';' at the end*/
+
+/*'MAXVALUES' undeclared earlier in the function*/
+
+/*the for loop should not be terminated*/
+
+/*the printf function written wrongly;
+
+first '\n' came before %d
+
+second 'Counter' was written with a capital later instead of a small letter and also equaled to %d*/
+
+
+
+
+
+
+
