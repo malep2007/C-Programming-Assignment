@@ -1,0 +1,22 @@
+#include<stdio.h>
+/*float do_it(char A, Char B, Char C)*/
+
+/*void print_a_number(char A)*/
+
+void print_msg(void);
+
+int main()
+
+{
+    print_msg("This is a message to print");
+    return 0;
+
+}
+void print_msq(void)
+{
+    puts("This is a the message");
+    return 0;
+}
+/*THE PROBLEM WITH THE CODE
+-There is a difference between the function name in the declaration and the function header i.e print_msq instead of print_msg
+-There is text in the print_msg function call yet the argument is supposed to return void*/
