@@ -1,12 +1,27 @@
-//*NAME:NAKALEMBE AGNES
-//*REG NO.16/U/811
-//*STUDENT NO:216001305
+
+//Answers of question 3:
+//i)	long values[50];
+
+//ii)	long values[49] = 123.456;
+
+//iii)	x is equal to 99  when the statement is complete
+
+//iv)	The value of ctr is 8  when the statement is complete
+
+
+
+
+//v)
 #include <stdio.h>
-//print_a_number_h
-int main()
-    {
-    #ifndef PRINT_A_NUMBER_H
-    #define PRINT_A_NUMBER_H
-    void print_a_number(int x);
-    #endif
+main(){
+int x = 1;
+while(x <= 100){
+//vi)
+  printf("The value of x : %d\n ", x);
+  x += 3;
 }
+}
+//Comment: The X will be counted from 1 to 100 by adding 3
+
+//vii)	We don’t have to put the semicolon to terminate the for loop and the statements for a for loop should be enclosed.
+
