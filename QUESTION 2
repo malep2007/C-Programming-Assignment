@@ -1,0 +1,43 @@
+//Header for a function named do_it
+//do_it.h declaration
+float do_it(char x, char y, char z);
+
+
+do_it.c
+#include<stdio.h>
+#include<stdlib.h>
+#include"do_it.h"
+float do_it(char x, char y,char z) //function definition
+{
+statements
+}
+
+// Header for a function named print_a_number.
+//print_a_number.h declaration
+void print_a_number(int a);
+
+
+print_a_number.c
+#include<stdio.h>
+#include<stdlib.h>
+#include"print_a_number.h"
+void print_a_number(int a)//function definition
+{
+statements
+}
+
+
+
+#include<stdio.h>
+voidprint_msg( void );
+main()/*a main that returns a value i.e. 0 should be of int data type*/
+{
+print_msg("This is a message to print");/*a void function takes on no arguments in brackets*/
+return 0;
+                    }
+void print_msq( void )//word msg was misspelt as msq
+                    {
+puts("This is a message to print");
+return 0;
+                    }
+
