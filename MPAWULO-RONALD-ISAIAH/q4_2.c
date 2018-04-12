@@ -3,17 +3,13 @@
 #include <stdlib.h>
 
 int results[] = {};
-int array1[]={};
-int array2[]={};
-int array3[]={};
-int *addarrays(int array1[],int array2[],int array3);
+int *addarrays(int array1[], int array2[], int n);
 
 int main(void) {
   int i,n;
   printf("Enter the size of the arrays: \n");
   scanf("%d",&n);
   int array_first[n], array_second[n];
-
   printf("Enter First array: \n");
 
   for ( i = 0; i < n; i++) {
@@ -28,17 +24,17 @@ int main(void) {
 
   int *y;
   y = addarrays(array_first, array_second, n);
-  printf("array one: ");
-  for (i=0; i < n; i++){
-  printf(" %d",array1[i]);
+   printf("array one: ");
+    for (i=0; i < n ; i++)  {
+  printf("%d,", array_first[i]);
   }
-  printf("\narray two: ");
+  printf("\n array two: ");
   for (i=0; i < n; i++){
-  printf("%d,", array2[i]);
+  printf("%d,", array_second[i]);
   }
   printf("\nresults array: ");
   for (i=0; i < n; i++){
-  printf("%d,", array3[i]);
+  printf("%d,", y[i]);
   }
   return 0;
 }
