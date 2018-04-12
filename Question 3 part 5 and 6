@@ -1,0 +1,13 @@
+//Question 3 part 5
+while(count>=1&&count<=100){
+	printf("enter values are %d\n ",count);
+    count++;
+}
+
+
+//Question 3 part 6
+//for loop was terminated
+ for (counter=1;counter<MAXVALUES;counter++);
+printf("\nCounter = %d",counter);
+
+
