@@ -1,0 +1,44 @@
+                                                                                     MATOVU ROBERT
+                                                                                      17/U/6007/PS
+   #include <stdio.h>
+
+int main()
+{
+      //question 3(i)
+     
+     long array[50];
+   array[49]=123.456
+
+   //question 3(ii)
+   x equals 100
+
+   //question 3(iii)
+   ctr equals 11
+
+
+   //question 3(iv)
+   int x=1;
+   while(x<=100)
+   x+=3;
+
+   //qtn 3(v)
+   The semi colon is not supposed to be at the end of the for statement.
+
+return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+   
+}
+                                                                                   
+                                                                                      
