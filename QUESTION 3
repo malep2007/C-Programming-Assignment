@@ -1,0 +1,30 @@
+
+long double a[50]; // declaration of 50 index array
+
+a[49]=123.456; // assignment of a value to the 50th element in the array
+
+//completion of program
+x will be 100.
+ctr value will be equal to 11.
+
+// source code
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int j=1;// definition and initialization of variable j
+while(j<=100)
+{
+printf("%d\n",j);
+j+=3;
+}
+return 0;
+}
+
+//debug
+for (counter = 1; counter < MAXVALUES; counter++ );/*for statement should not be terminated with
+a semicolon since its a block*/
+printf("\nCounter = %d", counter);
+
+
