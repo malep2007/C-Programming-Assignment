@@ -1,0 +1,37 @@
+#include <stdio.h>//preprocessor
+void addarrays(int X[],int Y[],int size);//function declaration
+int main()//main function
+{
+   int A[5],B[5],C=5,i;//Array and variable declaration
+   printf("Enter the entries of an array A:\n");//outputs the statement in the quotes to the console
+   for(i=0;i<5;i++)//for loop for an array A
+   {
+    scanf("%d",&A[i]);//gets the values of array A from the keyboard
+   }
+   printf("\n");
+
+   printf("Enter the entries of an array B:\n");//outputs the statement in the quotes to the console
+   for(i=0;i<5;i++)//for loop for an array B
+   {
+    scanf("%d",&B[i]);//gets the values of array B from the keyboard
+   }
+    printf("\n");
+   addarrays(A,B,C);//Function call
+
+    return 0;
+}
+void addarrays(int X[],int Y[],int size)//Function header
+{
+    int counter,C[size];//declaration of the local variables in the function definition
+    for(counter=0;counter<size;counter++)//for loop for the addition process
+    {
+        C[counter]=X[counter]+Y[counter];//addition process
+    }
+    printf("The values of the third array are as below\n");
+    for(counter=0;counter<5;counter++)//for loop for printing the output of the third array to the screen
+    {
+     printf("%d ",C[counter]);//prints the values of the third array to the screen
+
+    }
+    return 0;//Terminates the funtion
+}
