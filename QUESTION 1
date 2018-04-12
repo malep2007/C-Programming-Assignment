@@ -1,0 +1,25 @@
+ NAME  MUGUME IVAN
+REG NO  17/U/6355/PS
+STUDENTS NO  217014758
+COURSE    ELECTRICAL ENGINEERING
+
+
+//QUESTION ONE
+/* a program with problem ........*/
+#include <stdio.h>
+
+int x=1; //This statement should end with a semi colon not a colon
+
+int main()
+{
+  if(x==1) //It's not supposed to have semi colon at the end
+
+    printf("x equals 1");
+
+    else // else is used instead of otherwise
+
+    printf("x does not equal 1");
+
+    return 0;
+}
+
