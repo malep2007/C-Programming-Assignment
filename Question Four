@@ -6,7 +6,7 @@
 
 
 
-Question Four:
+Question Four:(a)
 
 THE FUNCTION TO ADD TWO ARRAYS
 
@@ -27,8 +27,9 @@ void addarrays(int N, int x[], int y[], int z[])
   
   
  
+ Question four (b)
  
- This is a header file for the following program containing function definitions:
+ //This is a header file for the following program containing function definitions:
  
  
 			Tipa.h
