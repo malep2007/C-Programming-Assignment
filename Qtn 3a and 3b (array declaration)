@@ -1,0 +1,5 @@
+Declaration of array to hold 50 characters of long type.
+long demo_array[50];
+
+assigning 123.456 to 50th element.
+demo_array[49] = 123.456;

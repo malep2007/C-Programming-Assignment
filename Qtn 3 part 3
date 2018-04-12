@@ -1,0 +1,1 @@
+statement for (x = 0; x < 100; x++) ends when x = 99
