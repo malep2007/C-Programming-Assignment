@@ -1,0 +1,54 @@
+//Question 4 part 1
+#include<stdio.h>
+	void Array_sum(){
+	int A[3],B[3],C[3],i;
+	printf("\n enter the values of A: ");
+	for(i=0;i<3;i++){
+		scanf("%d",&A[i]);
+	}
+	printf("enter the values of B");
+	for(i=0;i<3;i++){
+		scanf("%d",&B[i]);
+	}
+	for(i=0;i<3;i++){
+		C[i]=A[i]+B[i];
+	}
+	printf("\n the sum of arrays A + B = \n");
+	for(i=0;i<3;i++){
+		printf("%d\t\n",C[i]);
+	}
+}
+int main(){
+	Array_sum();
+	return 0;
+}
+//Question 4 part 2
+#include<stdio.h>
+	void Array_sum(){
+	int A[3],B[3],C[3],i;
+	int *p;
+	printf("\n enter the values of A: ");
+	for(i=0;i<3;i++){
+		scanf("%d",&A[i]);
+	}
+	printf("enter the values of B");
+	for(i=0;i<3;i++){
+		scanf("%d",&B[i]);
+	}
+	for(i=0;i<3;i++){
+		C[i]=A[i]+B[i];
+		
+	}
+	
+	printf("\n the sum of arrays A + B = \n");
+	for(i=0;i<3;i++){
+		p=&C[i];
+		printf("%d\t\n",*p);
+	}
+}
+int main(){
+	Array_sum();
+	return 0;
+}
+
+
