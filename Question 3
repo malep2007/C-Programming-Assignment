@@ -1,0 +1,9 @@
+	//Question 3 part 1
+	Long A[50];  
+	//Question 3 part 2
+	A[49] = 123.456; 
+	//Question 3 part 3
+	0 - 99 
+	//Question 3 part 4
+	2, 5, 8
+
