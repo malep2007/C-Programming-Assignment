@@ -1,17 +1,16 @@
 //NAME: AHEREZA SARAH
 //REG_NO: 16/U/35
-//COURSE: COMPUTER ENGINEERING II
+//COURSE: COMPUTER ENGINEERING
 #include <stdio.h>
-#include <stdlib.h>
-int i=0;
 int main()
 {
-    void AddArrays(int array1[], int array2[], int destination_array[], int size)
-    {
-    for(i=0;i<size;i++)
-    {
-    destination_array[i] = array1[i] + array2[i];
+
+int count = 1;
+while(count <= 100){
+printf("%d ", count);
+count += 3;
+
 }
 }
 
-}
+
