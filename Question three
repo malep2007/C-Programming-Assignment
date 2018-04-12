@@ -47,9 +47,7 @@ Question three (d)
 
   #include <stdio.h  // The while statement.
   #include <stdlib.h>
-
-
-int main () 
+   int main () 
 	{
 		/* Declaring a variable y of integer type and assigning it initial value 1 
 		*********************************************************************/
