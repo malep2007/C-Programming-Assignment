@@ -1,0 +1,83 @@
+
+qn.1
+
+#include <stdio.h>
+int x = 1;
+main(){
+if(x==1)
+printf ("x equals 1");
+else
+printf ("x does not equal 1");
+return 0;
+}
+
+
+Qn.2
+a)-
+(do_it.h)
+#ifndef DO_IT_H
+#define DO_IT_H
+float do_it(char a, char b, char c);
+#endif // DO_IT_H
+
+b)-
+(print_a_number.h)
+#ifndef PRINT_A_NUMBER_H
+#define PRINT_A_NUMBER_H
+void print_a_number(int x);
+#endif // PRINT_A_NUMBER_H
+
+c)
+The print_msg() function is not supposed to take any arguments but the main function calls it with a string argument.
+
+Qn.3
+a)
+long values[50];
+
+b)
+long values[49] = 123456;
+
+c)
+x is equal to 100 when the statement is complete
+d)
+The value of ctr is 11 when the statement is complete
+e)
+#include <stdio.h>
+main(){
+int count = 1;
+while(count <= 100){
+printf("%d ", count);
+count += 3;
+}
+}
+
+f)
+The code under the for loop is always executed once, outside of the for loop, because of the semicolon terminating the for loop
+
+Qn.4
+
+a)
+void addarrays(int array1[], int array2[], int destination_array[], int SIZE){
+for(int i=0;i<SIZE;i++){
+destination_array[i] = array1[i] + array2[i];
+}
+}
+
+b)
+#include <stdio.h>
+int *addarrays(int array1[], int array2[], int SIZE);
+main(){
+int array1[] = {2,5,3,22,6};
+int array2[] = {13,143,11,10,121};
+int *array3 = addarrays(array1, array2, 5);
+for(int i=0;i<5;i++) {
+printf("%d \n", array3[i]);
+}
+}
+int *addarrays(int array1[], int array2[], int length){
+int *destination_array = malloc(length * sizeof(int));
+for(int i=0;i<length;i++){
+destination_array[i] = array1[i] + array2[i];
+}
+return destination_array;
+}
