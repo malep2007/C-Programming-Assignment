@@ -1,0 +1,9 @@
+/*function that accepts two arrays of the same size and adds each element in the arrays together and places the values in a third array*/
+int arr3[]={};
+void addarrays(int arr1[],int arr2[])
+{
+    int i=0;
+    for(i=0;i<j;i++){
+        arr3[i]=arr1[i]+arr2[i];
+    }
+}
