@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+int j, K;
+
+main()
+{
+
+int *addarrays(int K, int x[], int y[], int z[])
+    	    int i;
+		for (i=0; i<K; i++)
+		{ z[i] = x[i] + y[i];
+					}
+		return z;
+	}
