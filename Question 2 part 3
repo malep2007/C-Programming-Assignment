@@ -1,0 +1,14 @@
+
+#include<stdio.h>
+void print_msg(void);
+main(){
+	/*the function arguments were declared as void while in line 6, the function call had arguments in the paranthesis*/
+	print_msg("This is a message to print"); 
+	/*return statement returning a value, yet the function was meant to return void.*/
+	return 0;
+}		
+/*the function defined (print_msq) is different from the function declared (print_msg)*/
+void print_msq(void){
+	puts("This is a message to print");
+	return 0;
+}
