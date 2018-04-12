@@ -1,0 +1,14 @@
+QUESTION 1
+
+
+/* a program with problems...*/
+#include <stdio.h>
+int x =1;//Use of semicolon
+main()
+{
+    if(x==1)// use of assignment operator instead of relational operation and use of terminator
+        printf("x equals 1");
+    else // use of otherwise instead of else
+    printf(" x does not equal 1");
+    return 0;
+}
