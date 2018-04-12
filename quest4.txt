@@ -1,0 +1,33 @@
+#include <stdio.h>
+    void addarrays(int [], int[], int*);
+    int main(){
+    	int counter; 
+
+    	int a[] = {1,2,3};
+		int b[]	= {8,5,8};
+		int size = (int)sizeof(b)/4; 
+		int c[size];
+//    	 for (counter = 1; counter < MAXVALUES; counter++ )
+//            printf("\nCounter = %d", counter);
+        if ((int)sizeof(a)==(int)sizeof(b)){
+        	addarrays(a,b,c);
+        	for (counter = 0; counter < size; counter++ ){
+		 
+        		printf("\n %d", c[counter]);
+			}
+		
+		}else{
+			printf("input array of same size");
+		}
+	
+		
+    return 0;
+        }
+    
+    void addarrays(int a[], int b[], int* c){
+    	int i ,j;
+    	for (i=0,j=0 ; i<sizeof(a) ; i++, j++){
+    		*c = a[i] + b[j];
+    		c++;
+		}
+	}
