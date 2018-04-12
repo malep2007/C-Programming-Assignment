@@ -17,8 +17,8 @@ for loop and the body is not included in braces or a tap from th beginning
 of 'for'*/
 // WHILE STATEMENT THAT COUNTS TO 100
 int i = 0;
-    while(i < 100){
+   int main() {while(i < 100){
         i++;
     }
     printf("%d", i);
-    return 0;
+    return 0;}
