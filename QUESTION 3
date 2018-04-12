@@ -1,0 +1,18 @@
+QUESTION 3 
+(a)long arra [50];
+(b)arra[49] = 123.456;
+(c)x is equal to 99.
+(d)The value of ctr will be 8.
+(e)#include <stdio.h>
+counter = 1;
+main()
+{
+    while(counter <= 100)
+    {
+        printf("%d\n", counter );
+        counter += 3;
+    }
+    return 0;
+}
+(f)for (counter =1; counter < MAXVALUES; counter++) // We don't terminate on for loop statement
+    printf("\nCounter = %d", counter)
