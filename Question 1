@@ -1,0 +1,14 @@
+QUESTION 1.
+
+//THE CORRECT RUNNING CODE.
+
+#include <stdio.h>
+int x= 1; //1ST BUG WAS THE USE OF ":" INSTEAD OF ";"
+main()
+{
+if( x == 1) //2ND BUG WAS THE USE OF THE ASSIGNMENT OPERATOR INSTEAD OF RELATIONAL OPERATOR AND THE USE OF A TERMINATOR OUTSIDE THE IF PARENTHESIS
+printf(" x equals 1" );
+else       //3RD BUG WAS THE USE OF OTHERWISE INSTEAD OF else
+printf(" x does not equal 1");
+return 0;
+}
