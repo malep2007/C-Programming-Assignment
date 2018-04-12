@@ -1,0 +1,27 @@
+long double n[50];
+
+n[49]=123.456;
+
+x wil be 100.
+ctr value will be 11.
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int v=1;
+while(v<=100)
+{
+printf("%d\n",v);
+v+=3;
+}
+return 0;
+}
+
+
+for (counter = 1; counter < MAXVALUES; counter++ );/*for statement are not terminated with
+a semicolon*/
+printf("\nCounter = %d", counter);
+
+
