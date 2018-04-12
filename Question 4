@@ -1,0 +1,104 @@
+//Part 1
+
+int addarrays()
+{
+     int i,a,b,c;
+
+
+    printf("Enter array size for array X:\n");
+    scanf("%d", &a);
+    printf("Enter array size for array Y:\n");
+    scanf("%d", &b);
+    printf("Enter array size for array Z:\n");
+    scanf("%d", &c);
+    int arrayX[a];
+    int arrayY[b];
+    int arrayZ[c];
+    if (a==b)
+    {
+        printf("Proceed to enter array values\n");
+    }
+    else
+    {
+       printf("Please enter equal array sizes");
+       exit(0);
+    }
+printf("Enter values for array X\n");
+     for(i=0; i<a;i++)
+     {
+         printf("Enter number %d\n", i);
+         scanf("%d", &arrayX[i]);
+     }
+     printf("Enter values for array Y\n");
+     for(i=0; i<b;i++)
+     {
+         printf("Enter number %d\n", i);
+         scanf("%d", &arrayY[i]);
+     }
+     for(i=0; i<c;i++)
+     {
+         arrayZ[i] = arrayX[i] + arrayY[i];
+         printf("\nThe sum of %d and %d is %d", arrayX[i],arrayY[i],arrayZ[i]);
+     }
+
+}
+
+
+//Part 2
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int *addarrays();
+int main()
+{
+   addarrays();
+}
+int *addarrays()
+{
+     int i,a,b,c;
+
+
+    printf("Enter array size for array X:\n");
+    scanf("%d", &a);
+    printf("Enter array size for array Y:\n");
+    scanf("%d", &b);
+    printf("Enter array size for array Z:\n");
+    scanf("%d", &c);
+    int arrayX[a];
+    int arrayY[b];
+    int *arrayZ[c];
+    if (a==b)
+    {
+        printf("Proceed to enter array values\n");
+
+    }
+    else
+    {
+       printf("Please enter equal array sizes");
+       return 0;
+
+
+    }
+
+
+
+        printf("Enter values for array X\n");
+     for(i=0; i<a;i++)
+     {
+         printf("Enter number %d\n", i);
+         scanf("%d", &arrayX[i]);
+     }
+     printf("Enter values for array Y\n");
+     for(i=0; i<b;i++)
+     {
+         printf("Enter number %d\n", i);
+         scanf("%d", &arrayY[i]);
+     }
+     for(i=0; i<c;i++)
+     {
+         arrayZ[i] = arrayX[i] + arrayY[i];
+         printf("\nThe sum of %d and %d is %d", arrayX[i],arrayY[i],arrayZ[i]);
+     }
+
+}
