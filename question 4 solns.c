@@ -6,8 +6,8 @@ void addarrays(int first[],int second[]);
 
 int main()
 {
-    int a[SIZE]={1,3,5,8};
-    int b[SIZE]={2,4,6,11};
+    int a[SIZE]={1,9,5,8};
+    int b[SIZE]={7,4,6,11};
 
     addarrays(a,b);
     return 0;
@@ -17,10 +17,10 @@ void addarrays(int first[],int second[])
     int sum[SIZE];
     int *ptr_sum=&sum[0];
 
-    int j=0;
-    for(j=0;j<SIZE;j++)
+    int m=0;
+    for(m=0;m<SIZE;m++)
     {
-        sum[j]=first[j]+second[j];
-        printf("%d+%d=%d\n",first[j],second[j],sum[j]);
+        sum[m]=first[m]+second[m];
+        printf("%d+%d=%d\n",first[m],second[m],sum[m]);
     }
 }
