@@ -1,0 +1,71 @@
+#include <stdio.h>
+#include <stdlib.h>
+int j, n;
+
+
+
+void addarrays (int n, int a[], int b[], int c[])// function definition that takes on 4 arguments
+{
+    int i;
+    for (i=0;i<n;i++)
+    {
+        c[i]=a[i]+b[i];
+    }
+}
+
+/*SOURCE FILE WITH MODIFIED FUNCTION TO RETURN A POINTER*/
+int *addarrays(int N, int x[], int y[], int z[])// function that returns a pointer
+    {	    int i;
+		for (i=0; i<N; i++)
+		{ z[i] = x[i] + y[i];
+					}
+		return z;
+	}
+
+
+
+void array_elements(int N, int a[])//function that enters array elements when called in the main function.
+    { 	int i;
+		for (i=0; i<N; i++)
+		{	printf("Enter element a[%d]:", i);
+			scanf("%d", &a[i]);
+		}
+	}
+
+	 void print_array(int N, int a[])// function that prints array elements when called in the main function
+    {
+        for(j=0;j<N;j++)
+        {
+            printf("%d",a[j]);
+        }
+    }
+
+
+
+
+int main()
+{
+int a[n], b[n], c[n], *address;
+printf("Please enter array size\n");
+scanf("%d",&n);
+printf("Please enter elements of array a[]");
+array_elements(n, a);
+printf("Please enter elements of array b[]");
+array_elements(n, b);
+address=addarrays(n, a, b, c);
+printf("The address of c[] is %x\n",address);
+printf("Elements of array a[] array:");
+print_array(n, a);
+printf("\nElements of array b[] array:");
+print_array(n, b);
+printf("\nElements of array c[] array:");
+print_array(n, c);
+
+
+
+    return 0;
+}
+
+
+
+
