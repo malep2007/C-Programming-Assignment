@@ -1,0 +1,32 @@
+#include <stdio.h>
+    
+    int main(){
+    long array[50];
+    
+    array[49]=123.456;
+    
+	return 0;
+        }
+            
+/* part b*/
+x will be equal to 99
+
+/* part c*/
+ctr will be 8
+
+/* part d*/
+#include <stdio.h>
+    
+    int main(){
+    	int x =1;
+    	while(x<=100){
+    		printf("%d\n",x);
+    		x+=3;
+    		
+		}
+    return 0;
+        }
+             
+/* part e*/
+ for (counter = 1; counter < MAXVALUES; counter++ ); // the termination of the for loop here means that the printf function is not going to be looped through.
+    printf("\nCounter = %d", counter);
