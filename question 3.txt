@@ -1,0 +1,9 @@
+Question 3;
+i)  long c[50]; 
+ii) c[49]=123.456;
+iii) The values of x (0,1,2,3,4,5,6,7,.....99)
+iv) THe values of ctr are 2,5,8.
+v) while(ctr<=100){
+   printf("ctr is %d\n",ctr);
+   ctr+=3;}
+vi) the problem is that the for loop is not supposed to be terminated.
