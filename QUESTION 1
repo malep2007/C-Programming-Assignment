@@ -1,0 +1,9 @@
+#include <stdio.h>
+	int x = 1;
+	main(){
+	if(x==1)// we don't have to terminate at the end of if statement
+	printf ("x equals 1");
+	else // insted of using otherwise we use else
+	printf ("x does not equal 1");
+	return 0;
+	}
