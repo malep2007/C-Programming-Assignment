@@ -1,0 +1,69 @@
+
+Question 4(a)
+
+#include <stdio.h>
+#include <stdlib.h>
+void addarrays(int A[],int B[],int size);
+int main()
+{
+   int A[5],B[5],C[5],i;
+   printf("Enter the array A:\n");
+   for(i=0;i<5;i++)
+   {
+    scanf("%d",&A[i]);
+   }
+
+   printf("Enter the array B:\n");
+   for(i=0;i<5;i++)
+   {
+    scanf("%d",&B[i]);
+   }
+   addarrays(A,B,5);
+
+    return 0;
+}
+void addarrays(int A[],int B[],int size)
+{
+    int i,C[size];
+    for(i=0;i<5;i++)
+    {
+        C[i]=A[i]+B[i];
+    }
+    for(i=0;i<5;i++)
+    {
+     printf("%d ",C[i]);
+
+    }
+    return 0;
+    
+ Question 4(b)
+   
+}#include<stdio.h>
+	void Array_sum(){
+	int A[3],B[3],C[3],i;
+	int *p;
+	printf("\n enter the values of A: ");
+	for(i=0;i<3;i++){
+		scanf("%d",&A[i]);
+	}
+	printf("enter the values of B");
+	for(i=0;i<3;i++){
+		scanf("%d",&B[i]);
+	}
+	for(i=0;i<3;i++){
+		C[i]=A[i]+B[i];
+
+	}
+
+	printf("\n the sum of arrays A + B = \n");
+	for(i=0;i<3;i++){
+		p=&C[i];
+		printf("%d\t\n",*p);
+	}
+}
+int main(){
+	Array_sum();
+	return 0;
+}
+
+
