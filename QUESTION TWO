@@ -1,0 +1,17 @@
+NAME EBIRI STELLA
+REG NUMBER 17/U/1674
+STUDENT NUMBER 217001750
+BSC TELECOM
+
+Part 1  
+do_it.h
+float do_it(char m,char n,char p);
+
+
+Part 2
+Print_a_number.h
+Void   Print_a_number(int r);
+
+Part 3
+The print_msg()function is not supposed to take any arguments but the main function calls it with a string argument.
+The print_msg has been wrongly typed as print_msq.
