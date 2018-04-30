@@ -1,0 +1,18 @@
+
+	/*ANSWER OF QUESTION 2:
+	I)	 (do_it.h)*/
+	
+	#ifndef DO_IT_H
+	#define DO_IT_H
+	float do_it(char x, char y, char z);
+	#endif // DO_IT_H
+	
+	//II)	  (print_a_number.h)
+	#ifndef PRINT_A_NUMBER_H
+	#define PRINT_A_NUMBER_H
+	void print_a_number(int a);
+	#endif // PRINT_A_NUMBER_H
+	
+	/*iii)
+	
+	The print_msg() function shouldn’t  take any arguments because the main function calls already have one.  */
