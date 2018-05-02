@@ -1,0 +1,24 @@
+/*declaration of an array that will hold type long values*/
+long people[50];
+
+/* A statement that assigns a value of 123.456 to the 50th element in the array*/
+long people[49]=123456;
+
+/* what is the value of x whenthe following statement is complete*/
+for(x=0;x<100,x++)  /* The final value of x is 100  */
+
+/* What is the value of ctr when the following statment is complete */
+for(ctr=2;ctr<10;ctr+=3) /* The final value of ctr is 11 */
+
+ /* A while statement to count from 1 to 100 in intervals of 3s */
+ int x=1;
+ while(x<=100)
+ {
+     printf("%d",x);
+     x+=3;
+ }
+
+ /* What is wrong with the folowing code fragment(MAXVALUES is the problem!)*/
+ for(counter=1;counter<MAXVALUES;counter++);  /* The problem is that the for loop has been terminated here by the semi colon(;) thus the program won't run since the code under the loop is only executed only once  */
+ printf("\ncounter=%d",counter);
+
