@@ -1,0 +1,29 @@
+2(a)
+   do_it.h
+   float do_it(char a,char b,char c);
+   do_it.c
+   #include<stdio.h>
+   #include"do_it.h"
+   float do_it(char a,char b,char c)
+   {
+   ..........
+   }
+   
+   
+   
+   2(b)
+      print_a_number.h
+      void print_a_number(int x);
+      print_a_number.c
+      #include<stdio.h>
+      #include"print_a_number.h"
+      void print_a_number(int x)
+      {
+        ..........
+        }
+        
+        
+        
+        
+   2(c)
+       the print_msg() function is not supposed to take any argument but the main function calls it with  a string argument.
