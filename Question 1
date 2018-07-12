@@ -1,0 +1,10 @@
+
+# include < stdio.h >
+
+Int x=1;
+Main ( )
+{
+If (x=1)
+Printf(“x equals 1);
+Else
+Printf( “x does not equal to 1”)
