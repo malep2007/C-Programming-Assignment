@@ -1,0 +1,16 @@
+/* a program with no errors*/
+#include<stdio.h>
+
+int x= 1;/* statements are terminated with semicolon not full colon*/
+int main()/*a main that returns a value i.e. 0 should be of int data type*/
+
+{
+if( x ==1)               /* an if block is not supposed to be terminated with
+                         semicolon and a relational operator "==" is supposed to be
+                         used instead of assignment operator*/
+printf(" x equals 1" );
+else /*In c  we are bound to use IF alongside ELSE and not otherwise*/
+printf(" x does not equal 1");
+return 0;
+}
+
