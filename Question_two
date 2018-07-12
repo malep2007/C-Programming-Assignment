@@ -1,0 +1,29 @@
+/*a*/
+#ifndef DO_IT_H_ _
+#define DO_IT_H_ _
+float do_it(char a,char b,char c);
+#endif
+
+/*b*/
+#ifndef PRINT_A_NUMBER_H_ _
+#define PRINT_A_NUMBER_H_ _
+void print_a_number(int i);
+#endif
+
+/*(c) program with problems*/
+#include<stdio.h>
+void print_msg(void);
+main(){
+print_msg("This is a message to print");/*there should be no parameters within the braces*/
+return 0;/*unnecessary since the function was already declared not to return any value*/
+}
+void print_msq(void)/*wrong function name;the right function name is print_msg and not print_msq*/
+{
+    puts ("this is a message to print");
+    return 0;
+}
+
+
+
+
+
