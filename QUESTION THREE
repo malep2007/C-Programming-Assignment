@@ -1,0 +1,22 @@
+/* SOLUTION TO QUESTION 3 */
+long array[50]; // DECLARATION FOR AN ARRAY THAT WILL HOLD 50 TYPE LONG VALUES
+long array[49]=123456;// STATEMENT THAT ASSIGNS 123.456 AS 50TH ELEMENT IN THE ABOVE ARRAY
+for(x=0;x<100;x++)// THE VALUES OF X WILL BE 0 TO 99 WHEN THE "FOR" STATEMENT IS COMPLETE
+for(ctr=2;ctr<10;ctr+=3)// THE VALUE OF ctr WILL BE 8 WHEN THE STATEMENT IS COMPLETED
+
+
+
+/* WHILE STATEMENT THAT COUNTS FROM 1 TO 100 IN STEPS OF 3*/
+# include <stdio.h>
+ main(void)
+ {
+  int count=1;
+while(count<=100){
+	printf("%d",counter);
+	count+=3;
+}
+}
+
+// PROBLEM WITH THE CODE
+for (counter=1;counter<MAXVALUES;counter++);
+printf("\nCounter=%d", counter); // THE PROBLEM IS WITH THE FOR LOOP; THE FOR LOOP IS NEVER TERMINATED WITH SEMICOLON
