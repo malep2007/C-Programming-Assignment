@@ -1,0 +1,4 @@
+
+a)  float do_it(char a,char b,char c);
+b) void print_a_number( int a);
+c)  - When calling the function in the main function, the statement "This is a message to print" is not required
