@@ -1,0 +1,15 @@
+long a[50];  //a is array name
+
+a[49]=123.456;
+
+x=100
+
+ctr=11
+
+counter=1;
+while(counter<=100){
+counter+=3;
+}
+
+
+for() loop shouldn't be terminated and curly braces should be used to enclose the print() function
