@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+int 4, x;
+int *addarrays(int 4,int 3[],int 1[],int z[]){
+int i;
+for(i=0; i<4; i++)
+    {
+        z[i]=x[i]+y[i];
+    }
+    return 0;
+}
+void arrays_elements(int N, int a[]){
+for (i=0; i<4 ; i++)
+      printf("\n%d",a[i]);
+}
+void print_elements(int 4, int a[]){
+    for(i=0; i<4; i++){
+printf("enter element");
+scanf("%d",&a[i]);}
+      }
+      int main(){
+      int x[4], y[4],z[4];
+      printf("enter size of the arrays");
+      scanf("%d",&4);
+      printf("enter elements of the 1st array:\n");
+      print_elements(4,x);
+      printf("enter elements of the array two:\n");
+      print_elements(4,y);
+      int*p;
+      p=addarrays(4,x,y,z);
+      printf("elements of array 1 are:\n");
+      print_elements(4,x);
+      printf("elements of array 2 are:\n ");
+      print_elements(4,y);
+      printf("elements of array that contain sum are:\n");
+      print_elements(4,z);
+      return 0;
+      }
+
+
+
