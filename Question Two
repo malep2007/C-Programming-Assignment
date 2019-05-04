@@ -1,0 +1,32 @@
+                                                                                                          MATOVU ROBERT
+                                                                                                           17/U/6007/PS
+                                                                                                           
+                                                                                                           
+        
+//QUESTION TWO
+
+
+{
+   //question 2 (i)
+   float do_it(char x, char y, char z)
+
+   //question 2 (ii)
+   void print_a_number(int a_number)
+
+   //question 2 (iii)
+   The print_msg() function has been declared as void and yet it returns a value.
+   Hence the return statement should be removed.
+
+
+
+
+
+
+
+
+
+
+
+
+}
+                                                                                                   
