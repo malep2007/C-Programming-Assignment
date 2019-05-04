@@ -1,0 +1,24 @@
+A)   long array [50];
+
+B)   array [49] = 123.456;
+
+C)  x = 100.
+
+D)   ctr = 11.
+
+E)   #include <stdio.h>
+counter = 1;
+main()
+{
+    while(counter <= 100)
+    {
+        printf("%d\n", counter );
+        counter += 3;
+    }
+    return 0;
+}
+
+
+ F)  for (counter =1; counter < MAXVALUES; counter++)            /* We don't terminate on for loop statement*/
+    printf("\nCounter = %d", counter);
+
