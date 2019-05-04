@@ -1,0 +1,24 @@
+solution to question 3
+A)	Long value[50];
+
+B)	Long value[49]=123,456;
+
+C)	 X is equal to 100 when the statement is complete.
+
+D)	The value of ctr is 11 when the statement is complete.
+
+E)	#include<stdio.h>
+main()
+{
+Int counter=1;
+while(counter<=100)
+{
+printf(“%d\n”,counter);
+counter+=3;
+}
+}
+
+F)	The code under the for loop is always executed once, outside of the forloop because of the semicolon terminating the for loop.
+
+
+}

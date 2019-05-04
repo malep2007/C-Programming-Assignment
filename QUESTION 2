@@ -1,0 +1,18 @@
+/*solution to questio2*/
+a)
+#ifndef DO_IT_H
+define DO_IT_H
+float do_it(char a,char b,char c);
+
+#endif // DO_IT_H
+
+
+b)
+#ifndef PRINT_A_NUMBER_H
+#define PRINT_A_NUMBER_H
+Void print_a_number(int x);
+#endif// PRINT_A_NUMBER_H
+
+
+
+C)	The print_msg() function is not supposed to take any arguments but the main function calls it with a string argument.*/
