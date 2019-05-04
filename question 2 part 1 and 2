@@ -1,0 +1,4 @@
+    //question 2 part 1
+	float  do_it(char A, char B, char C) 
+	//question 2 part 2
+	void  print_a_number(int  A) 
