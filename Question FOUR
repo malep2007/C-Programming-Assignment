@@ -1,0 +1,44 @@
+4(a)
+   void addarrays(int array1[],int array2[],int final_array[],int size)
+   {
+     for(int i=0;i<size;i++)
+     { 
+         final_array[i] = array[i] + array2[i];
+       }
+   }  
+
+
+
+
+
+
+4(b)
+
+#include <stdio.h>
+int i;
+
+int *addarrays(int array1[], int array2[], int final_array[], int size);
+
+int main()
+{
+    int array1[] = {1,2,3,4,5};
+    int array2 []= {10,11,12,13,14};
+    int array3[5], *address;
+
+    address = addarrays(array1,array2, array3, 5);
+    for( i=0;i<5;i++)
+    {
+        printf("%d\n",array3[i]);
+    }
+
+    return 0;
+}
+int*addarrays(int array1[],int array2[], int final_array[], int length)
+    {
+       // int*final_array = malloc(length*size of (int));
+        for( i=0;i<length;i++)
+        {
+            final_array[i] = array1[i] + array2[i];
+        }
+        return final_array;
+    }
