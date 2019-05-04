@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int x = 1;
+
+main()
+{
+    if(x == 1)
+
+        printf("x is equals to 1");
+
+    else
+
+        printf("x does equal to 1");
+
+    return 0;
+}
