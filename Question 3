@@ -1,0 +1,32 @@
+
+//Part 1. long X[50];
+
+//Part 2. X[49] = 123.456;
+
+//Part 3. x = 99 when the statement is complete
+
+//Part 4. ctr = 8 when the statement is complete
+
+/*	//Part 5.
+#include <stdio.h>
+
+main ()
+{
+    int x, y;
+
+    x = 1;
+    while (x <= 100)
+    {
+        y = x;
+        x += 3;
+    }
+    printf("The final value when counting in 3's from 1 to 100 is %d\n", y);
+
+    return 0;
+}
+*/
+
+//Part 6.
+for (counter = 1; counter < MAXVALUES; counter++);  //A semi-colon was placed immediately after the parenthesis of the 'for' statement
+printf("\nCounter = %d", counter);
+

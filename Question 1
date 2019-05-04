@@ -1,0 +1,19 @@
+/* The correct program with rectified errors mentioned in the comments...*/
+
+#include <stdio.h>
+
+int x = 1;      //A colon was used to terminate instead of a semi-colon
+
+main()
+{
+    if(x == 1)  //An assignment operator was used instead of a relational operator, and a semi-colon was also placed outside the 'if' parenthesis which was not meant to be */
+    {
+    printf("x equals 1");
+    }
+    else           //'otherwise' was used instead of 'else'
+    {
+    printf("x does not equal 1");
+    }
+
+    return 0;
+}
