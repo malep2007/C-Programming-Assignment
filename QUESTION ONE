@@ -1,0 +1,10 @@
+ /* Program with no errors */
+#include <stdio.h>
+int x= 1;  // this is terminated with a semi colon.
+main(){
+if( x = 1)// The if statement is not terminated using a semi-colon.
+    printf(" x equals 1" );
+else // the if statement is followed by else not otherwise.
+    printf(" x does not equal 1");
+return 0;
+}
