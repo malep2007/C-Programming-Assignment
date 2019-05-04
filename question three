@@ -1,0 +1,16 @@
+	
+	Long S[50]; //Question 3 (a)
+	
+	S[49] = 123.456; //Question 3 (b)
+	
+	0 - 99 //Question 3 (c)
+	
+	2, 5, 8 //Question 3 (d)
+while(count>=1&&count<=100){
+	printf("enter values are %d\n ",count);
+    count++;
+}
+
+ for (counter=1;counter<MAXVALUES;counter++); // The for loop was terminated
+printf("\nCounter = %d",counter);
+

@@ -1,0 +1,14 @@
+    
+	float  do_it(char A, char B, char C)//question 2 part (a)
+	
+	void  print_a_number(int  k)//question 2 part (b)
+  #include<stdio.h>
+void print_msg(void);
+main(){
+	print_msg("This is a message to print"); //This function contains arguments and yet the function declared had no arguments but void
+	return 0;
+}		
+void print_msq(void){ //This fuction defined is different from the function declared in line 2
+	puts("This is a message to print");
+	return 0;
+}
