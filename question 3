@@ -1,0 +1,23 @@
+Question three
+a)long int array[50];
+
+b)long int array[49]=123.456
+
+c)the values of x will increase from 0 to 99 by adding one to the previous value.
+
+d)ctr=8
+
+e)#include<stdio.h>
+  int main()
+  {
+    int count=1;
+    while(count<=100){
+    printf("%d",count);
+      count+=3;
+    }
+      return 0;
+  }
+
+f)- The for loop is not terminated
+  -open braces after the for loop
+  -counter=%d should appear before the 
