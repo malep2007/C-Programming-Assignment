@@ -1,0 +1,36 @@
+solution 4 question
+A)	voidarrays(intarray 1[],int array 2[],int location_array[],int SIZE);
+{
+for(int i=o;i<SIZE;i++)
+{
+location_array[i]=array 1[i]+array 2[i];
+}
+}
+
+B)
+#include<stdio.h>
+int*addarrays(intarray 1[],intarray 2[],int  SIZE)
+Main()
+
+Int array 1[]={1,2,3,4,5];
+Int array 2[]={6,7,8,9,10};
+int*array 3=addarrays(array 1,array 2,5);
+for (int i=0;i<5;i++)
+{
+printf(“%d\n”,array 3[i]);
+}
+}
+int*addarrays(intarray 1[],int array 2[],int length)
+{
+Int*location_array=malloc(length*size of(int));
+For (int i=0;i<length;i++)
+{
+Int*location_array[i]=array 1[i]+array 2[i];
+}
+Return  location_array;
+}
+
+
+
+
+}

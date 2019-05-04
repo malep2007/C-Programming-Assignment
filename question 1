@@ -1,0 +1,15 @@
+MUBANGIZI FELEX
+17/U/574
+
+#include <stdio.h>
+#include <stdlib.h>
+/* solution to question 1*/
+int x=1;
+int main()
+{
+   if(x=1)
+   printf("x equals 1);
+   else
+    printf("x does not equal to 1");
+    return 0;
+}
