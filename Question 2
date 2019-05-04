@@ -1,0 +1,21 @@
+ODOCH QUINTO 17/U/980
+Part 1;
+//do it header file
+
+float do_it(char a,char b,char c);
+Part 2;
+//print a number
+
+void print_a_number(int a);
+Part 3;
+#include <stdio.h>
+void print_msg( void );
+main(){
+  print_msg("This is a message to print");//The print_msg function takes one single  arguments but the main function calls it with a string argument.
+  return 0;
+}
+void print_msq( void )  //Supposed to be print_msg instead of print_msq
+{
+  puts("This is a message to print");
+  return 0; // Unexpected because the return type was specified as 'void'
+}
