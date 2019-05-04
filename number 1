@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+main()
+{
+  int x;
+  printf("The value of x =");
+  scanf("%d",&x);
+  if(x==1)
+ {
+   printf("x equals 1");
+ }
+  else
+ {
+  printf("x does not equal 1");
+ }
+  return 0;
+}
+
