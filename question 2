@@ -1,0 +1,11 @@
+Header file for a function do_it
+#ifndef DO_IT_H
+#define DO_IT_H
+float do_it(char a, char b, char c);
+Header file for a function print_a_number
+#ifndef PRINT_A_NUMBER_H
+#define PRINT_A_NUMBER_H
+void print_a_number(int x);
+#endif // PRINT_A_NUMBER_H
+What’s wrong with the following program
+The print_msg() function is not supposed to take any arguments but the main function calls it with a string argument.
