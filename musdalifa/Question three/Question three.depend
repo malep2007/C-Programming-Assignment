@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1523465680 source:c:\users\musdalifap\desktop\c_work\question three\main.c
+	<stdio.h>
+	<stdlib.h>
+
