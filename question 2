@@ -1,0 +1,36 @@
+2.
+
+a) float do_it (charA, charB, charC)/*for header ,syntax is return type, function name
+                                      then argument*/
+
+b) void print_a_function(int A) /*void means the function doesnt return anything to calling program*/
+
+c)
+   #include <stdio.h>
+   #include <stdlib.h>
+
+
+   void print_msg (void);
+   int main
+   {
+
+      print msg("This is a message to print");/*in function declaration it shows no arguments
+                                                but in function calling there is an argument,
+                                                argument should be blank*/
+
+      return 0;
+   }
+
+   void print_msq(void)/*wrong spelling of function name which
+                         makes it different from the called one,
+                        print_msq instead of print_msg*/
+
+   {
+
+       puts("this is a message to print");
+
+       return 0;
+   }
+
+
+

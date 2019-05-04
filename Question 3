@@ -1,0 +1,30 @@
+3a.
+ long arrays[50]
+
+3b.
+ arrays[49] = 123.456
+
+3c.
+ x = 0-99
+
+3d.
+ ctr = 8
+
+3e.
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int m;
+m = 1;
+while(m<=100)
+{
+    printf("%d\n",m);
+    m +=3;
+}
+    return 0;
+}
+
+3f.for (m = 1; m < MAXVALUES; m++ );/*termination of the for loop was wrong*/
+    printf("\nm = %d", m);
