@@ -1,0 +1,72 @@
+/* Name: Stephen Tipa Augustine
+   Reg No: 17/U/1149
+   Student's No: 217000802
+   Course: Telecommunication Engineering
+   */
+
+
+
+Question Three (a)
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/* The array is of type long double since it is to hold a large floating value****
+**********************************************************************************
+*/
+
+
+int main () 
+	{
+		/* Declaring an array of type long double that holds 50 elements*****
+		*********************************************************************/
+		long double a[50]; 
+		a[49]=123.456 ;   // Assigns 123.456 to the 50th element of the array
+		return 0;
+	}
+	
+	
+Question three (b)
+
+	What is the values of x when the following statement in complete ?
+       for (x = 0; x < 100; x++),
+       
+       ANSWER: x will be equal to 100.
+
+Question three (c)
+
+       What is the value of ctr when the following statement is compelte ?
+       for(ctr = 2; ctr < 10; ctr += 3),
+       
+       ANSWER: ctr will be equal to 11.
+       
+       
+Question three (d)
+
+       /* The while statement*****************************************************/
+
+  #include <stdio.h  // The while statement.
+  #include <stdlib.h>
+   int main () 
+	{
+		/* Declaring a variable y of integer type and assigning it initial value 1 
+		*********************************************************************/
+		int y = 1;
+		while ( y <= 100)    // The test condition the loop runs as long as y is less of equal to 100
+		{
+			printf("\n %d", y);  // as long  as the loop runs the value of y is printed
+			y+ = 3;      // y incremented by 3
+		} 
+		return 0;
+	}
+	
+	
+Question three (e)
+	
+    What is wrong with the following code fragment (MAXVALUES is not the problem !)
+    for (counter = 1; counter < MAXVALUES; counter++ );     
+    printf("\nCounter = %d", counter);
+   
+   ANSWER: The semicolon after the for statement should not have been there.				
+
+	

@@ -1,0 +1,20 @@
+/* Name: Stephen Tipa Augustine
+   Reg No: 17/U/1149
+   Student's No: 217000802
+   Course: Telecommunication Engineering
+   */
+
+
+
+Question one
+        /* The improved version of the program with errors fixed... */
+                    #include <stdio.h>
+                    int x= 1;  // A statement is terminated using a semi-colon not a colon.
+                    int main() // The function main returns 0 only after it has been declared to return an integer
+                    {
+                        if( x = 1)     // The if statement is not terminated using a semi-colon.
+                            printf(" x equals 1" );
+                        else                               // the if statement is followed by else not otherwise.
+                            printf(" x does not equal 1");
+                        return 0;
+                    }
