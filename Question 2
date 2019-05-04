@@ -1,0 +1,21 @@
+2a. float do_it(char X, char Y, char Z)
+
+2b. void print_a_number(int X)
+
+
+2c. 
+#include <stdio.h>
+
+void print_msg( void );/*there is a difference in the function header and function declaration*/
+
+ main()
+   {
+    print_msg("This is a message to print");/*no arguments should be included in this
+    function call*/
+    return 0;
+   }
+void print_msq( void )/*there is a difference in the function header and function declaration*/
+    {
+    puts("This is a message to print");
+    return 0;
+    }
