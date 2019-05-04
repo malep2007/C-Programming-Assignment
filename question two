@@ -1,0 +1,27 @@
+question two
+ NAME:AHUMUZA BRIAN
+ REG NO:17/U/2223/PS
+ COURSE:TELCOM
+
+ (i) float do_it(char 1, char 2, char 3);
+
+ (ii) void print_a_number(int x);
+
+
+ #include<stdio.h>
+ void print_msg void;
+ int main()
+ {
+   print_msg();
+   return 0;
+     }
+     void print_msg(void)
+     {
+         puts("this is a message to print\n");
+     }
+ /*problems were.
+ -the main body  was lacking  the int
+- the function print_msg is not supposed to have the statement "this is a message to print"
+ -return 0 in the function is not supposed to be there.
+
+

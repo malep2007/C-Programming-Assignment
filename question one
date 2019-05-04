@@ -1,0 +1,73 @@
+question one
+NAME:AHUMUZA BRIAN
+ REG NO:17/U/2223/PS
+ COURSE:TELCOM
+
+/* aprogram with problems
+#include<stdio.h>
+
+int x=1:
+main()
+{
+    if (x=1);
+    printf("x equals 1");
+    otherwise
+    {
+        printf("x doesnot equal to 1")
+        return 0;
+
+    }
+
+}
+
+}*/
+
+/*correct program*/
+#include <stdio.h>
+int main()
+{
+    int x=1;
+
+    if(x==1)
+    {
+      printf("x equals to 1\n");
+
+    }
+    else{
+        printf("x doesnt equal to 1\n");
+
+    }
+    return 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

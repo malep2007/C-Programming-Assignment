@@ -1,0 +1,25 @@
+/*question 3
+NAME:AHUMUZA BRIAN
+ REG NO:17/U/2223/PS
+ COURSE:TELCOM
+
+(i) long age array[50]
+ (ii) double age array[49]=1,2,3,4,5,6;
+
+ for (x=0; x<100;x++)
+x=0 to 99
+
+for(ctr=2;ctr<10;ctr+=3)
+    2,5,8*/
+
+#include<stdio.h>
+    int main()
+    {
+    int x=1;
+while(x<=100)
+    {
+
+   printf("%d\n",x);
+x+=3;
+}
+    }
