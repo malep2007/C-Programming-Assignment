@@ -1,0 +1,14 @@
+/* a program without errors*/
+#include<stdio.h>
+
+int x= 1;/* terminations should be carried out using semi colons not full colons*/
+int main()/*for main to return a 0 it has tro be declared to b e returning an integer*/
+
+                    {
+if( x ==1)/* for "x" to be equal to one, we are bound to use double equal signs and not single equal signs
+    plus no terminations on the if statement should exist*/
+printf(" x equals 1" );
+else /*In c for else we are bound to use IF alongside ELSE and not otherwise*/
+printf(" x does not equal 1");
+return 0;
+                    }

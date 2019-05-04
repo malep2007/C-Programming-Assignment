@@ -1,0 +1,44 @@
+/*question two part 1*/
+//do_it.h declaration
+float do_it(char x, char y, char z);
+
+
+do_it.c
+#include<stdio.h>
+#include<stdlib.h>
+#include"do_it.h"
+float do_it(char x, char y,char z) //function definition
+{
+statements--------
+}
+
+/*question two part2*/
+//print_a_number.h declaration
+void print_a_number(int a);
+
+
+print_a_number.c
+#include<stdio.h>
+#include<stdlib.h>
+#include"print_a_number.h"
+void print_a_number(int a)//function definition
+{
+statements---------
+}
+
+
+/*question two part 3*/
+#include<stdio.h>
+voidprint_msg( void );
+main()//main should be declared as "int main() for it to return 0"
+{
+print_msg("This is a message to print");/*since print_msg is declared to be void, it should not be with
+ any arguments in the brackets*/
+return 0;
+                    }
+voidprint_msq( void )//wrong spelling of the word msg
+                    {
+puts("This is a message to print");
+return 0;
+                    }
+

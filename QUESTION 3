@@ -1,0 +1,26 @@
+long double a[50]; // array name is a
+
+a[49]=123.456; // assignment of a value to the 50th element in the array
+
+x will be equal to 100.
+ctr value will be equal to 11.
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int x=1;
+while(x<=100)
+{
+printf("%d\n",x);
+x+=3;
+}
+return 0;
+}
+
+
+for (counter = 1; counter < MAXVALUES; counter++ );/*for statement should not be terminated with
+a semicolon since its a function*/
+printf("\nCounter = %d", counter);
+
