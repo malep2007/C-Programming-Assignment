@@ -1,0 +1,25 @@
+
+	a)Long array [50];
+
+	b)Float array 1[49]= 123.456
+
+	c)X is from 0-99
+
+	d)Its 2,5,8
+
+  e)#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+
+{
+    int i;
+    i=1;
+    while(i<100){
+        printf("%d\t", i);
+        i+=3;
+    }
+    getchar();
+}
+
+	f)Termination of the for loop
