@@ -1,0 +1,9 @@
+The output values of x range from 0-99 with an increment of 1
+
+
+ctr values are 2,5,8
+
+
+The for loop function has a termination at the end which is not supposed to be the case for 
+for loops
+
