@@ -1,0 +1,5 @@
+float do_it(char,char,char);
+
+void print_a_number(int);
+
+print_msg() function is not supposed to have any arguments but the main() function calls with a string argument
