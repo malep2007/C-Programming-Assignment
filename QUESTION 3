@@ -1,0 +1,26 @@
+//*QUESTION THREE PART 1*//
+long double r[50]; // r IS THE ARRAY NAME
+//*PART 2*//
+r[49]=123.456; // ASSIGNING THE VALUE TO THE 50TH ELEMENT IN THIS ARRAY
+//*PART 3*//
+X IS EQUAL TO 100.
+ctr value IS EQUAL TO 11.
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int x=1;
+while(x<=100)
+{
+printf("%d\n",x);
+x+=3;
+}
+return 0;
+}
+
+//*PART 4*//
+for (counter = 1; counter < MAXVALUES; counter++ );/* "FOR" STATEMENT IS NOT TERMINATED WITH SEMI COLON BECAUSE IT IS A FUNCTION*/
+printf("\nCounter = %d", counter);
+
