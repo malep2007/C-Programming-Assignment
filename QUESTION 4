@@ -1,0 +1,86 @@
+QUESTION 4
+(a)int addarray()
+{
+    int i,a,b,c;
+    printf("Enter the size of array 1:\n");
+    scanf("%d",&a);
+    printf("Enter the size of array 2:\n");
+    scanf("%d",&b);
+    printf("Enter the size of sum arrays:\n");
+    scanf("%d",&c);
+    int array_1[a];
+    int array_2 [b];
+    int sum [c];
+    if (a==b)
+    {
+        printf("can not continue");
+       } else{
+        exit(0);
+    }
+    printf("Enter values for array i\n");
+    for(i=0;i<a; i++)
+    {
+        printf("Enter number %d\n",i);
+        scanf("%d",&array_1[i]);
+    }
+        printf("Enter values for array 2\n");
+        for (i=0; i<b; i++)
+        {
+            printf("Enter number %d\n",i);
+            scanf("%d",&array_2[i]);
+        }
+        for (i=0; i<c; i++)
+        {
+            sum[i]= array_1 [i] + array_2 [i];
+            printf("\nthe sum of %d and %d is %d", array_1[i], array_2[i], sum[i]);
+        }
+
+
+}
+
+(b)
+#include <stdio.h>
+int *addarray();
+int array_1 , array_2;
+int main(){
+addarray();
+}
+int *addarray()
+{
+    int i,a,b,c;
+    printf("Enter the size of array 1:\n");
+    scanf("%d",&a);
+    printf("Enter the size of array 2:\n");
+    scanf("%d",&b);
+    printf("Enter the size of sum arrays:\n");
+    scanf("%d",&c);
+    int array_1[a];
+    int array_2 [b];
+    int *sum [c];
+    if (a==b)
+    {
+        printf("can not continue");
+       } else{
+        exit(0);
+    }
+    printf("Enter values for array i\n");
+    for(i=0;i<a; i++)
+    {
+        printf("Enter number %d\n",i);
+        scanf("%d",&array_1[i]);
+    }
+        printf("Enter values for array 2\n");
+        for (i=0; i<b; i++)
+        {
+            printf("Enter number %d\n",i);
+            scanf("%d",&array_2[i]);
+        }
+        for (i=0; i<c; i++)
+        {
+            sum[i]= array_1 [i] + array_2 [i];
+            printf("\nthe sum of %d and %d is %d", array_1[i], array_2[i], sum[i]);
+        }
+
+
+}
+

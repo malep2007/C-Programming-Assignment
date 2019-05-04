@@ -1,0 +1,14 @@
+QUESTION 2 
+(a)float do_it(char 1, char 2, char 3)//header don't terminate 
+(b)void print_a_number(int 1)
+(c)#include <stdio.h>
+void print_msq(void);// the print_msq() function name must be the same through out.
+main(){
+print_msq();// the print_msq() is not suppose to take any arguments.
+return 0;
+}
+void print_msq(void)
+{
+    puts("This is a message to print");
+   return 0;
+}
