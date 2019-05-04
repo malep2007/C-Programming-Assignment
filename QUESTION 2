@@ -1,0 +1,17 @@
+a) float do_it(char a, char b, char c)          /*headers don't terminate*/ 
+
+
+b) void print_a_number(int x)
+
+
+c) #include <stdio.h>
+void print_msg(void);                       /* the print_msg() function name must be the same through out.*/
+main(){
+print_msg();                               /* the print_msg() is not suppose to take any arguments. */
+return 0;
+}
+void print_msg(void)
+{
+    puts("This is a message to print");
+   return 0;
+}
