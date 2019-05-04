@@ -1,0 +1,24 @@
+//part1//
+ long array1[50];
+
+//part 2//
+ (float) array1[49]=123.456
+
+//part 3//
+ The values range from 0 to 99
+
+//part 4//
+ ctr = 8
+
+//part 5//
+   int x=1;
+   while (x<=100){
+    printf("%d\n",x);
+    x+=3;
+     }
+     
+   //part 6//
+    for (counter = 1; counter < MAXVALUES; counter++ );
+
+    printf("\nCounter = %d", counter);
+//for loop is not supposed to be terminated so for the above case the termination on the for loop is the problem//

@@ -1,0 +1,100 @@
+//question 4//
+
+//Part 1//
+
+#include<stdio.h>
+#include<stdlib.h>
+float addarrays(float A[],float B[],int size)
+{
+    int i;
+    printf("please enter the size\n");
+    scanf("%d",&size);
+    float C[size];
+    printf(" Please enter the  values of A:\n");
+    for(i=0;i<size;i++)
+    {
+
+        scanf("%f",&A[i]);
+
+
+    }
+    printf("Please enter the values of B:\n");
+    for(i=0;i<size;i++)
+    {
+
+        scanf("%f",&B[i]);
+
+    }
+    printf("The values of  are:C\n");
+    for(i=0;i<size;i++)
+    {
+    C[i]=C[i]+B[i];
+
+    printf("\t%.0f",C[i]);
+    }
+
+}
+int main()
+{
+
+    float A[30];
+    float B[10];
+
+    addarrays(A,B,10);
+    return 0;
+
+}
+
+
+
+//part 2//
+
+#include<stdio.h>
+
+float *addarrays(float A[],float B[],int size)
+{
+    int i;
+    printf("please enter the size\n");
+    scanf("%d",&size);
+    float C[size];
+    printf(" Please enter the  values of A:\n");
+    for(i=0;i<size;i++)
+    {
+
+        scanf("%f",&A[i]);
+
+
+    }
+    printf("Please enter the values of B:\n");
+    for(i=0;i<size;i++)
+    {
+
+        scanf("%f",&B[i]);
+
+    }
+    printf("The values of C are:\n");
+    for(i=0;i<size;i++)
+    {
+    C[i]=A[i]+B[i];
+
+    printf("\t%.0f",C[i]);
+    }
+    printf("\nThe pointers of array3 are;\n");
+    {
+        for(i=0;i<size;i++)
+        {
+            printf("\t%X",&C[i]);
+        }
+    }
+
+}
+int main()
+{
+
+    float A[10];
+    float B[10];
+
+    *addarrays(A,B,10);
+    return 0;
+
+}
