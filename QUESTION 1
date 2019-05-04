@@ -1,0 +1,14 @@
+
+#include<stdio.h>
+
+int x= 1;/* terminations should be done using semi colons*/
+int main()/*for main to return a 0 it has to be declared to return an integer*/
+
+                    {
+if( x ==1)/* for "x" to be equal to one, we should use two equal signs and not single equal signs
+    and no terminations on the if statement should exist*/
+printf(" x equals 1" );
+else /*In c, ifd moves hand in hand with ELSE and not otherwise*/
+printf(" x does not equal 1");
+return 0;
+                    }

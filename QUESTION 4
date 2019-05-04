@@ -1,0 +1,81 @@
+void addarrays (int n, int a[], int b[], int c[])// function definition that takes on 4 arguments
+{
+    int i;
+    for (i=0;i<n;i++)
+    {
+        c[i]=a[i]+b[i];
+    }
+}
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+int j, n;
+
+
+
+int *addarrays(int n, int x[], int y[], int z[])
+    {	    int i;
+		for (i=0; i<n; i++)
+		{ z[i] = x[i] + y[i];
+					}
+		return z;
+	}
+
+
+
+
+
+
+
+int main()
+{
+int a[n], b[n],i, c[n], *address;
+printf("Please enter array size\n");
+scanf("%d",&n);
+printf("Please enter elements of array a[]");
+
+		for (i=0; i<n; i++)
+		{	printf("Enter element a[%d]:", i);
+			scanf("%d", &a[i]);
+		}
+printf("Please enter elements of array b[]");
+
+		for (i=0; i<n; i++)
+		{	printf("Enter element a[%d]:", i);
+			scanf("%d", &a[i]);
+		}
+address=addarrays(n, a, b, c);
+printf("The address of c[] is %x\n",address);
+printf("Elements of array a[] :");
+ for(i=0;i<n;i++)
+        {
+            printf("%d",a[i]);
+
+        }
+printf("\nElements of array b[]:");
+ for(i=0;i<n;i++)
+        {
+            printf("%d",b[i]);
+
+        }
+
+printf("\nElements of array c[]:");
+ for(i=0;i<n;i++)
+        {
+            printf("%d",c[i]);
+
+        }
+
+
+
+
+
+    return 0;
+}
+
+
+
+
