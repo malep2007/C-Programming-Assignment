@@ -1,0 +1,31 @@
+// part a
+long values[50];
+// part b
+long value[49]=123.456;
+// part c
+it prints from 1 up to 99
+// part d
+ctr=2
+ctr=5
+ctr=8
+//part e
+#include <stdio.h> 
+  
+int main () 
+{ 
+   /* local variable definition */ 
+   int a = 1;  
+   /* while loop execution */ 
+   while( a <=100 ) 
+   { 
+      printf("value of a: %d\n", a); 
+      a+=3; 
+   } 
+  
+   return 0; 
+} 
+//partf
+the semicolon shouldn't be at the end of the condition
+carly brackets enclose the staement
+
+

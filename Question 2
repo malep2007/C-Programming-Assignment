@@ -1,0 +1,14 @@
+// part a
+#ifndef do_it_H
+#define do_it_H
+float do_it(char x, char y, char z);
+#endif
+//part 2
+#ifndef print_a_number_H
+#define print_a_number_H
+
+void print_a_number(int p);
+
+#endif
+//part c
+The print_msg() is not supposed to take any argumnt while the main function calls for an argument
