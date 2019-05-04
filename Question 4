@@ -1,0 +1,117 @@
+QUESTION 4.
+
+(a).
+
+int addarrays()
+{
+     int i,a,b,c;
+
+
+    printf("enter the size of array 1:\n");
+    scanf("%d", &a);
+    printf("enter the size of array 2:\n");
+    scanf("%d", &b);
+    printf("enter the size of sum array:\n");
+    scanf("%d", &c);
+    int arr1[a];
+    int arr2[b];
+    int sum[c];
+    if (a==b)
+    {
+        printf("arrays are equal.\n");
+    }
+    else
+    {
+       printf("can not continue since the size of array1 and array 2 are not equal.");
+       exit(0);
+    }
+printf("Enter values for array 1\n");
+     for(i=0; i<a;i++)
+     {
+         printf("Enter number %d\n", i);
+         scanf("%d", &arr1[i]);
+     }
+     printf("Enter values for array 2\n");
+     for(i=0; i<b;i++)
+     {
+         printf("Enter number %d\n", i);
+         scanf("%d", &arr2[i]);
+     }
+     for(i=0; i<c;i++)
+     {
+         sum[i] = arr1[i] + arr2[i];
+         printf("\nthe sum of %d and %d is %d", arr1[i],arr2[i],sum[i]);
+     }
+
+}
+
+
+
+
+
+
+(b).
+
+
+
+#include<stdio.h>
+#include<stdlib.h>
+int *addarrays();
+
+
+int main()
+{
+   addarrays();
+}
+
+
+int *addarrays()
+{
+     int i,a,b,c;
+
+
+    printf("enter the size of array 1:\n");
+    scanf("%d", &a);
+    printf("enter the size of array 2:\n");
+    scanf("%d", &b);
+    printf("enter the size of sum array:\n");
+    scanf("%d", &c);
+    int arr1[a];
+    int arr2[b];
+    int *sum[c];
+    if (a==b)
+    {
+        printf("arrays are equal.\n");
+
+    }
+    else
+    {
+       printf("can not continue since the size of array1 and array 2 are not equal.");
+       exit(0);
+
+
+    }
+
+
+
+        printf("Enter values for array 1\n");
+     for(i=0; i<a;i++)
+     {
+         printf("Enter number %d\n", i);
+         scanf("%d", &arr1[i]);
+     }
+     printf("Enter values for array 2\n");
+     for(i=0; i<b;i++)
+     {
+         printf("Enter number %d\n", i);
+         scanf("%d", &arr2[i]);
+     }
+     for(i=0; i<c;i++)
+     {
+         sum[i] = arr1[i] + arr2[i];
+         printf("\nthe sum of %d and %d is %d", arr1[i],arr2[i],sum[i]);
+     }
+
+}
+
+
