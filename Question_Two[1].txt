@@ -1,0 +1,7 @@
+
+Question Two
+I)	float do_it(char argument 1,char argument 2,char argument 3)
+II)	void print_a_number(int argument)
+III)	The function print-msg has many arguments and since it’s defined before the main() function, it should only be called at the end of the program, yet it is called twice in the program.
+In addition the function declaration should have the same variable name but there is “msq” not “msg”
+

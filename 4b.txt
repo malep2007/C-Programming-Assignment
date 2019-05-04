@@ -1,0 +1,54 @@
+
+#include <stdio.h>//preprocessor
+#include<conio.h>//preprocessor
+void addarrays(int X[],int Y[],int size);//function declaration
+int main()//main function
+{
+   int A[5],B[5],C=5,i;//Array and variable declaration
+   printf("Enter the entries of an array A:\n");//outputs the statement in the quotes to the console
+   for(i=0;i<5;i++)//for loop for an array A
+   {
+    scanf("%d",&A[i]);//gets the values of array A from the keyboard
+   }
+   printf("\n");//prints a new line
+
+   printf("Enter the entries of an array B:\n");//outputs the statement in the quotes to the console
+   for(i=0;i<5;i++)//for loop for an array B
+   {
+    scanf("%d",&B[i]);//gets the values of array B from the keyboard
+   }
+    printf("\n");
+   addarrays(A,B,C);//Function call
+   getch();
+
+    return 0;//Terminates the main function and returns zero
+}
+void addarrays(int X[],int Y[],int size)//Function header
+{
+    int counter,*ptr[size],C[size];//declaration of the local variables in the function definition
+    printf("Values of array A:\n");
+    for(counter=0;counter<5;counter++)//for loop for printing the output of the third array to the screen
+    {
+     printf("%d ",X[counter]);//prints the values of the first array to the screen
+    }
+    printf("\n\n");//prints a new line
+
+        printf("Values of array B:\n");
+    for(counter=0;counter<5;counter++)//for loop for printing the output of the third array to the screen
+    {
+     printf("%d ",Y[counter]);//prints the values of the second array to the screen
+    }
+    printf("\n\n");//prints a new line
+
+    for(counter=0;counter<size;counter++)//for loop for the addition process
+    {
+        C[counter]=X[counter]+Y[counter];//addition process
+        ptr[counter]=&C[counter];//Assigns the memory address of C[counter] as a value to a pointer
+    }
+    printf("The values of the third array are as below\n");
+    for(counter=0;counter<5;counter++)//for loop for printing the output of the third array to the screen
+    {
+     printf("%d ",*ptr[counter]);//prints the values of the third array to the screen by dereferencing a pointer
+    }
+    return 0;//terminates the addarrays function and returns a zero
+}

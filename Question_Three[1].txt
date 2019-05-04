@@ -1,0 +1,16 @@
+Question Three
+a)	Long int array[50];
+b)	Long int array[49]= 123.456;
+c)	X = 99 
+d)	ctr = 8
+e)	#include <stdio.h>
+#include <stdlib.h>
+main()
+{int x=1;
+while(x<=100){
+    printf("%d\n",x);
+x+=3;
+
+}}
+f)	The code under the loop is always executed once outside the for loop, because of the semicolon terminating the for loop.
+
