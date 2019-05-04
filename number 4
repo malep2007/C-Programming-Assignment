@@ -1,0 +1,56 @@
+
+number 4a soltion;
+
+void addarrays(int N, int x[],int y[],int z[]){
+int i;
+for(i=0; i<N; I++)
+
+{
+    z[i]=x[i]+y[i];
+}
+
+}
+
+number 4b solution;
+
+#include <stdio.h>
+#include <stdlib.h>
+int N, i;
+int *addarrays(int N,int x[],int y[],int z[]){
+int i;
+for(i=0; i<N; i++)
+    {
+        z[i]=x[i]+y[i];
+    }
+    return 0;
+}
+void arrays_elements(int N, int a[]){
+for (i=0; i<N ; i++)
+      printf("\n%d",a[i]);
+}
+void print_elements(int N, int a[]){
+    for(i=0; i<N; i++){
+printf("enter element");
+scanf("%d",&a[i]);}
+      }
+      int main(){
+      int x[N], y[N],z[N];
+      printf("enter size of the arrays");
+      scanf("%d",&N);
+      printf("enter elements of the 1st array:\n");
+      print_elements(N,x);
+      printf("enter elements of the array two:\n");
+      print_elements(N,y);
+      int*p;
+      p=addarrays(N,x,y,z);
+      printf("elements of array 1 are:\n");
+      print_elements(N,x);
+      printf("elements of array 2 are:\n ");
+      print_elements(N,y);
+      printf("elements of array that contain sum are:\n");
+      print_elements(N,z);
+      return 0;
+      }
+
+
+
