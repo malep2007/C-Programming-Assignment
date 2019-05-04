@@ -1,0 +1,35 @@
+//part a
+long values[50];
+
+
+//part b
+long values[50];
+
+
+//part c
+it will print from x=1 to x=99
+//part d
+ctr=2
+ctr=5
+ctr=8
+
+//part e
+#include <stdio.h> 
+  
+int main () 
+{ 
+    
+   int x=1;  
+   
+   while( x <=100 ) 
+   { 
+      printf("value of x: %d\n", x); 
+      x+=3; 
+   } 
+  
+  
+   return 0; 
+} 
+//part f
+the semicolon shouldn't be at the end of the condition
+carly brackets enclose the staement
