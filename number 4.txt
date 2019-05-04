@@ -1,0 +1,37 @@
+
+
+Number four:
+
+Answer:
+void addarrays(int w[], int p[], int r[], int SIZE)
+{
+for(int i=0;i<SIZE;i++)
+{
+    destination_array[i] = w[i] + p[i];
+}
+}
+
+Modify the function you created in to return a pointer to the array containing
+the totals. Place this function in a program that also displays the values in all
+three arrays
+
+Answer:
+#include <stdio.h>
+int *addarrays(int w[], int p[], int SIZE);
+main(){
+int w[] = {8,2,1,4,6};
+int p[] = {1,17,24,14,20};
+int *r = addarrays(w, p, 5); /*r is third array*/
+
+for(int i=0;i<5;i++) {
+printf("%d \n", r[i]);
+}
+}
+int *addarrays(int w[], int p[], int l) /*l is length*/
+{
+int *destination_array = malloc(l * sizeof(int));
+for(int i=0; i<l; i++){
+destination_array[i] = w[i] + p[i];
+}
+return destination_array;
+}
