@@ -1,0 +1,12 @@
+Question One
+#include<stdio.h>
+int x=1; /*variable is declared before the main() function */
+main()
+{
+      if(x==1)/*the if statement is not meant to be terminated and use of assignment operator instead of relational operator*/
+  printf("x equals 1");
+  else /*the if-else syntax was wrong, it cannot be if-otherwise*/
+  {
+  printf("x does not equal 1");
+  }
+
