@@ -1,0 +1,20 @@
+3a  long a[50];
+
+3b  a[49]=123.456
+
+3c  The values of x; 0 to 99
+
+3d  The values of ctr are; 2,5,8
+
+3e 
+  int i=1;
+  while(i<100)
+{
+  printf("%d\n",i);
+  i+=3;
+}
+
+
+3f for (counter = 1; counter < MAXVALUES; counter++ );/*The for statement is not supposed to be terminated in C*/
+    printf("\nCounter = %d", counter);
+
