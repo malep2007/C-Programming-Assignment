@@ -1,0 +1,17 @@
+a)long values[50]; 
+b)long values[49] = 123.456; 
+c)x is equal to 99 when the statement is complete 
+d)The value of ctr will be 8 when the statement is complete 
+e)#include <stdio.h> 
+ 
+main(){ 
+ 
+    int count = 1; 
+ 
+    while(count <= 100){ 
+           printf("%d ", count);   
+           count += 3; 
+    } 
+} 
+f)The code under the for loop is always executed once, outside of the for loop, because of the semicolon terminating the for loop. 
+ 
