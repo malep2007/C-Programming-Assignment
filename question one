@@ -1,0 +1,9 @@
+#include <stdio.h>
+intx=1;
+main()
+  if(x==1)
+     printf("x equals 1);
+else
+  printf("x does not equal to 1);
+  return0;
+}
