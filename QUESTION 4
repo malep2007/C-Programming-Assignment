@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+int a, n;
+main(){
+int *addarrays(int n, int x[], int y[], int z[])
+    {	    int i;
+		for (i=0; i<n; i++)
+		{ z[i] = x[i] + y[i];
+					}
+		return z;
+	}
+
+
+
+B)
+
+#include <stdio.h>
+int *addarrays(int array1[], int array2[], int SIZE);
+main(){
+int array1[] = {1,4,6,7,43};
+int array2[] = {34,65,78,65,43};
+int *array3 = addarrays(array1, array2, 5);
+for(int i=0;i<5;i++) {
+printf("%d \n ", array3[i]);
+}
+}
+int *addarrays(int array1[], int array2[], int length){
+int *destination_array = malloc(length * sizeof(int));
+for(int i=0;i<length;i++){
+destination_array[i] = array1[i] + array2[i];
+}
+return destination_array;
+}
