@@ -1,0 +1,22 @@
+//Question 3 part 1
+Long_values[50];  
+//Question 3 part 2
+Long_values[49] = 123456;
+//Question 3 part 3
+x is equal to 99 
+Answer to part 4 
+The value of ctr is 11 when the statement is complete 
+Answer to part 5
+#include <stdio.h> 
+main(){ 
+int count = 1; 
+ 
+while(count <= 100){ 
+printf("%d ", count); 
+count += 3; 
+} 
+} 
+ 
+Answer to part 6
+The code under for loop is always executed once, outside of the for loop, because of the semicolon terminating the for loop.
+

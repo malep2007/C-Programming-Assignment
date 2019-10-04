@@ -1,0 +1,6 @@
+Answer to question 2 part b: 
+//(print_a_number.h) 
+#ifndef PRINT_A_NUMBER_H 
+#define PRINT_A_NUMBER_H 
+void print_a_number(int y); 
+#endif 
