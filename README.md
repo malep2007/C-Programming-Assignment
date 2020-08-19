@@ -1,3 +1,8 @@
+KATWESIGYE PHOEBE
+15/U/6084/EVE
+215005082
+
+
 # Assignment
 This is a simple repository you will use to finish the assignments contained in this 
 README.md document.

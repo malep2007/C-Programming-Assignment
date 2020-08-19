@@ -1,0 +1,23 @@
+Write a declaration for an array that will hold 50 type long values
+
+long x[50];
+-----------------------------------------------------------------------
+Show a statement that assigns the value of 123.456 to the 50th element in the array from the above question
+
+x[49] = (long) 123.456;
+---------------------------------------------------------------------
+What is the values of x when the following statement in complete ?
+
+x=100
+----------------------------------------------------------------------
+What is the value of ctr when the following statement is compelte ?
+
+ctr=11
+---------------------------------------------------------------------------
+What is wrong with the following code fragment (MAXVALUES is not the problem !)
+
+for (counter = 1; counter < MAXVALUES; counter++ );
+printf("\nCounter = %d", counter);
+
+The variable counter was not declared.
+----------------------------------------------------
