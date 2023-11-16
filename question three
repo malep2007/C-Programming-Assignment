@@ -1,0 +1,11 @@
+(a)long values[50];
+
+(b)long values[49] = 123456; 
+
+(c)the value of x will be 99 when the statement is complete
+
+(d)the vlaue of ctr will be 8 
+
+(e)while(i=1;i<=100;i+3)
+
+(f)The semicolon makes the message to printed once and the program is terminated.

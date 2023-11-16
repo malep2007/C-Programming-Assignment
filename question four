@@ -1,0 +1,34 @@
+a)
+#include<stdio.h>
+void addarrays(int A[], int B[], int destination_array[], int SIZE){ 
+ 
+    for(int i=0;i<SIZE;i++){ 
+        destination_array[i] = A[i] + B[i]; 
+    } 
+} 
+
+
+
+
+b)
+#include <stdio.h> 
+int *addarrays(int A[], int B[], int SIZE);  
+main(){ 
+    int A[] = {2,5,3,22,6}; 
+    int B[] = {10,12,4,20,100}; 
+ 
+    int *C = addarrays(A, B, 5); 
+    for(int i=0;i<5;i++) {         printf("%d \n", C[i]); 
+    } 
+} 
+ 
+ 
+int *addarrays(int A[], int B[], int length)
+{     int *destination_array = malloc(length * sizeof(int));    
+for(int i=0;i<length;i++)
+{ 
+        destination_array[i] = A[i] + B[i]; 
+    } 
+    return destination_array; 
+} 
+ 
